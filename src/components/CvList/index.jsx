@@ -15,9 +15,7 @@ export const CvList = () =>{
                 <CvItem/>
                 <CvItem/>
                 <CvItem/>
-                <CvItem/>
-                <CvItem/>
-                <CvItem/>
+                
                 
             </Wrapper>
         </>

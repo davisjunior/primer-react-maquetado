@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
 
 footer{
+    box-sizing: border-box;
     background: #0f141f;
     width: 100%;
     display: block;
@@ -37,7 +38,7 @@ footer{
                 a{
                     margin-right: 15px;
                     
-                    i{
+                    svg{
                         font-size: 25px;
                         color: white;
                     }
@@ -51,7 +52,7 @@ footer{
                     &:hover{
                         transition:0.3s ease;
                         background: white;
-                        i{
+                        svg{
                             color:#537bc0 ;
                         }
                     }
@@ -64,7 +65,7 @@ footer{
                     &:hover{
                         transition:0.3s ease;
                         background: white;
-                        i{
+                        svg{
                             color:#1da1f2 ;
                         }
                     }
@@ -78,7 +79,7 @@ footer{
                     &:hover{
                         transition:0.3s ease;
                         background: white;
-                        i{
+                        svg{
                             color:#0077b5 ;
                         }
                     }
@@ -121,6 +122,7 @@ footer{
         width: 100%;
         display: block;
         text-align: center;
+        box-sizing: border-box;
         
         .flag{
             margin-top: 90px;
@@ -181,12 +183,13 @@ footer{
                     &:hover{
                         .submenu-footer-mobile{
                             transition: 0.5s ease;
-                            width: 100%;
                             display: inline-flex;
                             flex-direction: column;
                             height: 240px;
                             background: hsla(0,0%,100%,.1);
                             padding: 25px;
+                            box-sizing:border-box;
+                            width: 80%;
                                 
                             
                         }
@@ -215,6 +218,8 @@ footer{
                         flex-direction: column;
                         overflow: hidden;
                         transition: 0.1s ease;
+                        box-sizing:border-box;
+                        width: 80%;
                         
                         a{
                             color: white;
@@ -264,12 +269,14 @@ footer{
                     &:hover{
                         .submenu-footer-mobile{
                             transition: 0.5s ease;
-                            width: 100%;
+                            
                             display: inline-flex;
                             flex-direction: column;
                             height: 240px;
                             background: hsla(0,0%,100%,.1);
                             padding: 25px;
+                            box-sizing:border-box;
+                            width: 80%;
                                 
                             
                         }
@@ -298,6 +305,8 @@ footer{
                         flex-direction: column;
                         overflow: hidden;
                         transition: 0.1s ease;
+                        box-sizing:border-box;
+                        width: 80%;
                         
                         a{
                             color: white;
@@ -347,7 +356,8 @@ footer{
                     &:hover{
                         .submenu-footer-mobile{
                             transition: 0.5s ease;
-                            width: 100%;
+                            box-sizing:border-box;
+                            width: 80%;
                             display: inline-flex;
                             flex-direction: column;
                             height: 240px;
@@ -381,6 +391,8 @@ footer{
                         flex-direction: column;
                         overflow: hidden;
                         transition: 0.1s ease;
+                        box-sizing:border-box;
+                        width: 80%;
                         
                         a{
                             color: white;
@@ -431,7 +443,8 @@ footer{
                     &:hover{
                         .submenu-footer-mobile{
                             transition: 0.5s ease;
-                            width: 100%;
+                            box-sizing:border-box;
+                            width: 80%;
                             display: inline-flex;
                             flex-direction: column;
                             height: 240px;
@@ -465,6 +478,8 @@ footer{
                         flex-direction: column;
                         overflow: hidden;
                         transition: 0.1s ease;
+                        box-sizing:border-box;
+                        width: 80%;
                         
                         a{
                             color: white;

@@ -5,9 +5,10 @@ export const Wrapper = styled.div`
     width: 100%;
     height: 320px;
     background: white;
-    padding-right: 26%;
-    padding-left: 26%;
     padding-top: 40px;
+    box-sizing: border-box;
+    max-width: 647px;
+    margin: 0 auto;
     .container-down-header{
         text-align: center;
 
@@ -27,5 +28,165 @@ export const Wrapper = styled.div`
         }
     }
     
+}
+@media (max-width: 1100px){
+    .down-header{
+        width: 100%;
+        height: auto;
+        background: white;
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        .container-down-header{
+            
+            h1{
+                font-size: 34px;
+                color: #262b33;
+                font-weight: bold;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size: 15px;
+                color: #262b33;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media (max-width: 768px){
+    .down-header{
+        width: 100%;
+        height: auto;
+        background: white;
+        padding-right: 12%;
+        padding-left: 12%;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        .container-down-header{
+            h1{
+                font-size: 34px;
+                color: #262b33;
+                font-weight: bold;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size: 15px;
+                color: #262b33;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+        }
+    }
+}
+@media (max-width: 540px){
+    .container-down-header{
+        h1{
+            font-size: 27px;
+            color: #262b33;
+            font-weight: bold;
+            font-family: "Roboto", sans-serif;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 15px;
+            color: #262b33;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        .boton{
+            display: none;
+        }
+    }
+}
+@media (max-width: 420px){
+    .down-header{
+        width: 100%;
+        height: auto;
+        background: white;
+        padding-right: 8%;
+        padding-left: 8%;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        .container-down-header{
+            h1{
+                font-size: 27px;
+                color: #262b33;
+                font-weight: bold;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size: 15px;
+                color: #262b33;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+            .boton{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 360px){
+    .down-header{
+        width: 100%;
+        height: auto;
+        background: white;
+        padding-right: 8%;
+        padding-left: 8%;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        .container-down-header{
+            h1{
+                font-size: 27px;
+                color: #262b33;
+                font-weight: bold;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size: 15px;
+                color: #262b33;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+            .boton{
+                display: none;
+            }
+        }
+    }
+}
+@media (max-width: 280px){
+    .down-header{
+        width: 100%;
+        height: auto;
+        background: white;
+        padding-right: 8%;
+        padding-left: 8%;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        .container-down-header{
+            h1{
+                font-size: 27px;
+                color: #262b33;
+                font-weight: bold;
+                font-family: "Roboto", sans-serif;
+                margin-bottom: 15px;
+            }
+            h2{
+                font-size: 15px;
+                color: #262b33;
+                margin-bottom: 30px;
+                font-weight: 300;
+            }
+            .boton{
+                display: none;
+            }
+        }
+    }
 }
 `

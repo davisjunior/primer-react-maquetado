@@ -9,6 +9,11 @@ import airplane from './img/airplane.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+import { faHandRock } from '@fortawesome/free-solid-svg-icons'
+import { faHorseHead } from '@fortawesome/free-solid-svg-icons'
 
 export const Header = () => {
     return (
@@ -34,7 +39,7 @@ export const Header = () => {
                                     <div className="content ">
                                         <div className="block-title">
                                             <a href="/"> <FontAwesomeIcon icon={faStar} /> Simple </a>
-                                            <a href="/"><i className="fas fa-angle-right" /></a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">Clean, timeless templates with a classic balanced structure. A perfect basic canvas</a>
@@ -42,8 +47,8 @@ export const Header = () => {
                                     </div>
                                     <div className="content">
                                         <div className="block-title">
-                                            <a href="/"><i className="fas fa-briefcase"/>Profesional</a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faBriefcase} />Profesional</a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">Job-winning templates to showcase professionalism, dependability and expertise</a>
@@ -53,8 +58,8 @@ export const Header = () => {
                                 <div className="content-buttom-part-left">
                                     <div className="content ">
                                         <div className="block-title">
-                                            <a href="/"><i className="far fa-hand-rock"/>Modern </a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faHandRock} />Modern </a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">A current and stylish feel for forward-thinking candidates in innovative fields</a>
@@ -62,8 +67,8 @@ export const Header = () => {
                                     </div>
                                     <div className="content">
                                         <div className="block-title">
-                                            <a href="/"><i className="fas fa-horse-head"/>Creative</a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faHorseHead} />Creative</a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">A bold, original feel perfect for artistic fields and contemporary companies</a>
@@ -119,7 +124,7 @@ export const Header = () => {
                                     </div>
                                     <div className="list">
                                         <div className="information">
-                                            <a href="/">All Examples<i className="fas fa-angle-right"/></a>
+                                            <a href="/">All Examples<FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         
                                     </div>
@@ -135,12 +140,12 @@ export const Header = () => {
                                     <div className="text-part-right">
                                         <span><a href="/">Build powerful resumes in only 5 minutes with our easy to use Resume Builder and get hired faster.</a></span>
                                     </div>    
-                                    <a href="/" className="title-blue">Get Started Now<i className="fas fa-angle-right"/></a>
+                                    <a href="/" className="title-blue">Get Started Now<FontAwesomeIcon icon={faAngleRight} /></a>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li><a href="/">Cover Letter<i className="fas fa-angle-down"/></a>
+                    <li><a href="/">Cover Letter<FontAwesomeIcon icon={faAngleDown} /></a>
                         <div className="container-submenu">
                             
                             <div className="part-left">
@@ -151,8 +156,8 @@ export const Header = () => {
                                 <div className="content-top-part-left">
                                     <div className="content ">
                                         <div className="block-title">
-                                            <a href="/"><i className="far fa-star"/>Simple </a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faStar} />Simple </a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">Clean, timeless templates with a classic balanced structure. A perfect basic canvas</a>
@@ -160,8 +165,8 @@ export const Header = () => {
                                     </div>
                                     <div className="content">
                                         <div className="block-title">
-                                            <a href="/"><i className="fas fa-briefcase"/>Profesional</a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faBriefcase} />Profesional</a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">Job-winning templates to showcase professionalism, dependability and expertise</a>
@@ -171,8 +176,8 @@ export const Header = () => {
                                 <div className="content-buttom-part-left">
                                     <div className="content ">
                                         <div className="block-title">
-                                            <a href="/"><i className="far fa-hand-rock"/>Modern </a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faHandRock} />Modern </a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">A current and stylish feel for forward-thinking candidates in innovative fields</a>
@@ -180,8 +185,8 @@ export const Header = () => {
                                     </div>
                                     <div className="content">
                                         <div className="block-title">
-                                            <a href="/"><i className="fas fa-horse-head"/>Creative</a>
-                                            <a href="/"><i className="fas fa-angle-right"/></a>
+                                            <a href="/"><FontAwesomeIcon icon={faHorseHead} />Creative</a>
+                                            <a href="/"><FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         <div className="text-span">
                                             <a href="/">A bold, original feel perfect for artistic fields and contemporary companies</a>
@@ -237,7 +242,7 @@ export const Header = () => {
                                     </div>
                                     <div className="list">
                                         <div className="information">
-                                            <a href="/">All Examples<i className="fas fa-angle-right"/></a>
+                                            <a href="/">All Examples<FontAwesomeIcon icon={faAngleRight} /></a>
                                         </div>
                                         
                                     </div>
@@ -253,13 +258,13 @@ export const Header = () => {
                                     <div className="text-part-right">
                                         <span><a href="/">Build professional cover letters in a few simple steps by using our free Cover Letter builder.</a></span>
                                     </div>    
-                                    <a href="/" className="title-blue">Get Started Now<i className="fas fa-angle-right"/></a>
+                                    <a href="/" className="title-blue">Get Started Now<FontAwesomeIcon icon={faAngleRight} /></a>
                                 </div>
                             </div>
                         </div>
                     </li>
                     
-                    <li><a href="/">Resume writing<i className="fas fa-angle-down"/></a>
+                    <li><a href="/">Resume writing<FontAwesomeIcon icon={faAngleDown} /></a>
                         <div className="container-submenu-3">
                             <div className="submenu-3-left">
                                 <div className="submenu-3-top">
@@ -272,7 +277,7 @@ export const Header = () => {
                                         </div>
                                         <div className="title-text">
                                             <div className="block-title">
-                                                <a href="/">How to write a resume <i className="fas fa-angle-right" aria-hidden="true"/></a>
+                                                <a href="/">How to write a resume <FontAwesomeIcon icon={faAngleRight} /></a>
                                             </div>
                                             <div className="text-span">
                                                 <a href="/">A complete guide with step by step expert tips. Writing your job-winning resume has never been this easy!</a>
@@ -339,7 +344,7 @@ export const Header = () => {
                                     <a href="/">Make your job-winning resume easy and fast with our top resume builder.</a>
                                 </div>
                                 <div className="blue-title">
-                                    <a href="/" className="title-blue">Create my resume<i className="fas fa-angle-right" aria-hidden="true"/></a>
+                                    <a href="/" className="title-blue">Create my resume<FontAwesomeIcon icon={faAngleRight} /></a>
                                 </div>
                             </div>
                         </div>
@@ -354,6 +359,77 @@ export const Header = () => {
             </nav>       
                 
             </header>
+{/*                                                                 VERSION MOBILE */                                                                       }
+            <header className="mobile-header">
+            <nav>
+                <div className="logo">
+                    <a href="#"><img src={logo} alt="" /></a>
+                </div>
+                <div className="menu">
+                    <a href="#">
+                    <FontAwesomeIcon icon={faBars} />
+                        
+                       
+                    </a>
+                    <div className="submenu-header-mobile">
+                        <div className="part-header-mobile">
+                            <p>RESUME</p>
+                            <div className="sub-menu-container">
+                                <a href="#">Resume Templates</a>
+                            </div>
+                            <div className="sub-menu-container"> 
+                                <a href="#">Resume Examples</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Resume Builder</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Resume Writing</a>
+                            </div>
+                        </div>
+                        <div className="part-header-mobile">
+                            <div className="sub-menu-container">
+                                <a href="#" className="title">COVER LETTER </a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Cover Letter Templates</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Cover Letter Examples</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Cover Letter Builder</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Cover Letter Writing</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">My Account <FontAwesomeIcon icon={faAngleDown} /></a>
+                            </div>
+                            
+                        </div>
+                        <div className="part-header-mobile-down">
+                            <div className="sub-menu-container">
+                                <a href="#">About Us</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">FAQ</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Blog</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Affiliates</a>
+                            </div>
+                            <div className="sub-menu-container">
+                                <a href="#">Contact Us</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
             
         </Wrapper>
     )

@@ -1,7 +1,13 @@
 import React from 'react'
 import Flag from './img/kisspng-flag-of-venezuela-vector-graphics-computer-icons-i-where-we-work-operation-smile-5c01de755e3872.5081417915436263573859.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Wrapper } from './styled'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUsers } from '@fortawesome/free-solid-svg-icons'
+import { faUserTie } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
+
 
 export const Footer =( ) =>{
     return(
@@ -14,9 +20,9 @@ export const Footer =( ) =>{
                     <h1>Connect with us on social media</h1>
                 </div>
                 <div class="icon-red-social">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><FontAwesomeIcon icon={faUser} /></a>
+                    <a href="#"><FontAwesomeIcon icon={faUsers} /></a>
+                    <a href="#"><FontAwesomeIcon icon={faUserTie} /></a>
                 </div>
             </div>
             <div class="center-right">
@@ -75,7 +81,7 @@ export const Footer =( ) =>{
                 <div class="menu-footer-mobile">
                     <div class="container-option-icon">
                         <p>Job Seekers</p>
-                        <span><i class="fas fa-angle-down"></i></span>
+                        <span><FontAwesomeIcon icon={faAngleDown} /></span>
                     </div>
                     <div class="submenu-footer-mobile">
                         <a href="#">Build a Resume</a>
@@ -88,7 +94,7 @@ export const Footer =( ) =>{
                 <div class="menu-footer-mobile">
                     <div class="container-option-icon">
                         <p>Career Resources</p>
-                        <span><i class="fas fa-angle-down"></i></span>
+                        <span><FontAwesomeIcon icon={faAngleDown} /></span>
                     </div>
                     <div class="submenu-footer-mobile">
                         <a href="#">Build a Resume</a>
@@ -101,7 +107,7 @@ export const Footer =( ) =>{
                 <div class="menu-footer-mobile">
                     <div class="container-option-icon">
                         <p>Our company</p>
-                        <span><i class="fas fa-angle-down"></i></span>
+                        <span><FontAwesomeIcon icon={faAngleDown} /></span>
                     </div>
                     <div class="submenu-footer-mobile">
                         <a href="#">Build a Resume</a>
@@ -114,7 +120,7 @@ export const Footer =( ) =>{
                 <div class="menu-footer-mobile">
                     <div class="container-option-icon">
                         <p>Support</p>
-                        <span><i class="fas fa-angle-down"></i></span>
+                        <span><FontAwesomeIcon icon={faAngleDown} /></span>
                     </div>
                     <div class="submenu-footer-mobile">
                         <a href="#">Build a Resume</a>

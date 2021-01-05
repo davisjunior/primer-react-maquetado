@@ -11,7 +11,7 @@ ${normalize()}
   a {
     color: ${props => props.theme.primary.fontColor};
 
-    &: hover {
+    &:hover {
       color: ${props => props.theme.primary.purple};
       text-decoration: underline;
     }

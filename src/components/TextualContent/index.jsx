@@ -6,6 +6,14 @@ import Sombrero from './img/sombrero.png'
 import Work from './img/work.png'
 import Mundo from './img/mundo.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import { faTimesCircle } from '@fortawesome/free-solid-svg-icons'
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+
 
 import { Wrapper } from './styled'
 
@@ -49,7 +57,7 @@ export const TextualContent = () =>{
                 <p>If there was one template that worked for everyone – well, our website would be much, much smaller. But the truth is, a variety of <a href="#">templates</a> are important to help capture the uniqueness of each candidate. And as beautiful as each template might be, a hiring manager doesn’t want to see the same one 100 times in a row. At the end of the day, the choice comes down to you. It’s important to evaluate the level of professionalism in your industry and at the company you’re applying to and decide if a modern, stylish resume or a more traditional one would be in line with those standards. </p>
                 <p>Beyond that, it’s about highlighting the experiences and abilities that make you unique. In some industries, a pop of color or a friendly photo can do the trick. In others, you’ll have to rely on your expert writing to sell yourself as a top candidate </p>
                 <div class="box-green">
-                    <p><i class="far fa-lightbulb"></i>EXPERT TIP</p>
+                    <p><FontAwesomeIcon icon={faLightbulb} />EXPERT TIP</p>
                     <span>Don't forget to check out our Resume example Guides</span>
                 </div>
                 <p>Let’s say you pick a template but find out the skills section just doesn’t have enough space for all your talents. The best part about using our online resume builder tool is that you can switch between templates with ease. So go on, pick a template and test it out. Changing your mind is never a problem.</p>
@@ -64,7 +72,7 @@ export const TextualContent = () =>{
                         <img src={Animation} alt=""/>
                     </div>
                     <div class="down-img-sticky">
-                        <a href="#" class="button-black">Create My Resume <i class="fas fa-angle-right"></i></a>
+                        <a href="#" class="button-black">Create My Resume <FontAwesomeIcon icon={faAngleRight} /></a>
                     </div>
                 </a>
 
@@ -107,7 +115,7 @@ export const TextualContent = () =>{
             <p>Use these guidelines, along with knowledge and research about your particular field, to give yourself a leg up on other less-prepared applicants.</p>
             <div class="container-list-horizontal">
                 <div class="do-dont">
-                    <h5 class="do"><i class="fas fa-check-circle"></i> Do</h5>
+                    <h5 class="do"><FontAwesomeIcon icon={faCheckCircle} /> Do</h5>
                     <ul>
                         <li>Do choose a resume layout that makes a strong and appropriate impression for your field</li>
                         <li>Do use specific action verbs to describe your previous responsibilities</li>
@@ -128,7 +136,7 @@ export const TextualContent = () =>{
                     </ul>
                 </div>
                 <div class="do-dont">
-                    <h5 class="dont"><i class="fas fa-times-circle"></i> Don't</h5>
+                    <h5 class="dont"><FontAwesomeIcon icon={faTimesCircle} /> Don't</h5>
                     <ul>
                         <li>Don't submit the same general resume to each job posting</li>
                         <li>Don't write just for the ATS robot or just for a human lie, exaggerate or plagiarize on your resume</li>
@@ -172,19 +180,19 @@ export const TextualContent = () =>{
             <p>Modern resume templates are best for showing employers that you are a forward-thinking candidate who isn’t afraid to be bold and be themselves. These templates offer blocks of color, strong lines and added emphasis to your name or title. </p>
             <p>A modern template work great for jobs in tech, design or startups, but their versatility means you can apply them to a variety of positions or companies. Does your potential employer have a focus on the here and now with a stylish image and young feel? That’s a great hint that a modern resume template will do the trick. Pick this category and start crafting an effective resume right away. </p>
             <div class="container-a">
-                <a href="#">Show all modern templates <i class="fas fa-long-arrow-alt-right"></i></a>
+                <a href="#">Show all modern templates <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
             </div>
             <h1 class="top-list">Professional resume templates</h1>
             <p>Professional resume templates are a safe bet for almost any position or industry, but they are particularly great for serious roles at traditional companies. Applicants for jobs in the medical field, administration, law or finance would all benefit from our professional templates, which offer crisp, clean formatting and a focus on skills. Within our free plan, you can use Resume.io to create a perfect resume from scratch using our free professional resume templates.</p>
             <p>A Professional template can work in just about any position where you need to highlight your experience with just a touch of design and layout flair. Many of our professional templates also contain space for a professional headshot or logo which adds credibility and class to your resume.</p>
             <div class="container-a">
-                <a href="#">Show all Professional templates <i class="fas fa-long-arrow-alt-right"></i></a>
+                <a href="#">Show all Professional templates <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
             </div>
             <h1 class="top-list">Creative resume templates</h1>
             <p>Creative resume templates are for times when thinking out of the box is not only encouraged – it’s required. Candidates in creative fields are most likely to benefit from these templates, but they can also be used by a variety of professionals when the situation calls for a bold move.</p>
             <p>These templates offer a variety of colorful accents, interesting backgrounds and space for headshots, logos and professional titles. When trying to show off your artistic prowess, you don’t want a resume layout to hold you back. That’s why these templates are perfect for getting the job done – creatively. Pick one and get started creating your resume masterpiece.</p>
             <div class="container-a">
-                <a href="#">Show all Professional templates <i class="fas fa-long-arrow-alt-right"></i></a>
+                <a href="#">Show all Professional templates <FontAwesomeIcon icon={faLongArrowAltRight} /></a>
             </div>
             <h1 class="top-list">What are the benefits using our templates?</h1>
             <h1 class="top-list">A proven advantage</h1>
@@ -210,7 +218,7 @@ export const TextualContent = () =>{
                         </div>
                     </div>
                     <div class="box-buttom">
-                            <p>Create My Resume<i class="fas fa-chevron-right"/></p>
+                            <p>Create My Resume<FontAwesomeIcon icon={faChevronRight} /></p> 
                     </div>
                 </a>
             </div>

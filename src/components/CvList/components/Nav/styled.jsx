@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 .content-options{
+    box-sizing: border-box;
     width: 100%;
     margin-top: 40px;
     margin-bottom: 50px;
@@ -21,11 +22,11 @@ export const Wrapper = styled.div`
                 color: #262b33;
                 border-bottom: 3px solid #2196f3;
                 padding-bottom: 35px;
-                &:hover i{
+                &:hover svg{
                     color: #1c79c5;
                 }
             }
-            i{
+            svg{
                 font-size: 20px;
                 margin-right: 20px;
                 color: #2196f3;
@@ -33,5 +34,122 @@ export const Wrapper = styled.div`
             }
         }
     }
+}
+@media (max-width: 768px){
+    .content-options{
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        padding-right: 10%;
+        padding-left: 10%;
+        .options{
+            a{
+                padding-bottom: 20px;
+                &:hover{
+                    padding-bottom: 20px;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 540px){
+    .content-options{
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        padding-right: 2%;
+        padding-left: 2%;
+        .options{
+            a{
+                padding-bottom: 20px;
+                &:hover{
+                    padding-bottom: 20px;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 420px){
+    .content-options{
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        padding-right: 9%;
+        padding-left: 9%;
+        .options{
+            a{
+                padding-bottom: 20px;
+                &:hover{
+                    padding-bottom: 20px;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+        .options:nth-child(4){
+            display: none;
+        }
+        .options:nth-child(5){
+            display: none;
+        }
+    }
+}
+@media (max-width: 360px){
+    .content-options{
+        width: 100%;
+        padding-bottom: 20px;
+        margin-bottom: 25px;
+        padding-right: 9%;
+        padding-left: 9%;
+        .options{
+            a{
+                padding-bottom: 20px;
+                &:hover{
+                    padding-bottom: 20px;
+                }
+                svg{
+                    display: none;
+                }
+            }
+        }
+        .options:nth-child(4){
+            display: none;
+        }
+        .options:nth-child(5){
+            display: none;
+        }
+    }
+}
+@media (max-width: 280px){
+    .content-options{
+            width: 100%;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            padding-right: 9%;
+            padding-left: 9%;
+            .options{
+                a{
+                    padding-bottom: 20px;
+                    &:hover{
+                        padding-bottom: 20px;
+                    }
+                    svg{
+                        display: none;
+                    }
+                }
+            }
+            .options:nth-child(4){
+                display: none;
+            }
+            .options:nth-child(5){
+                display: none;
+            }
+        }
 }
 `
