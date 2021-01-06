@@ -1,6 +1,8 @@
 import React from 'react'
 import { Wrapper } from './styled'
 
+
+
 import { useIsLarge } from '../../../../../src/hooks/responsive'
 
 import { HeaderMobile } from '../../../../components/Header/components/HeaderMobile'
@@ -42,8 +44,12 @@ export const Hero = () => {
                             <a href="#" className="cute-click">Get started</a>
                         </div>
                     </div>
+                    <div className="png">
+                    
+                    </div>
+                    {/* PROBAR ACOMODAR LUEGO 
                     <div className="grid">
-                        <div className="casilla"><h1>hola</h1></div>
+                        <div className="casilla"></div>
                         <div className="casilla"></div>
                         <div className="casilla"></div>
                         <div className="casilla"></div>
@@ -64,6 +70,7 @@ export const Hero = () => {
                         <div className="casilla"></div>
                         <div className="casilla"></div>
                     </div>
+                    */}
                 </div>
             ):
             ( 

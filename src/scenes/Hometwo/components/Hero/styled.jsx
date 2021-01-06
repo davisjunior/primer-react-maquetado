@@ -1,7 +1,7 @@
 
 import styled from 'styled-components'
 
-
+import Group6 from './img/Group6.png'
 
 export const Wrapper = styled.div`
 .main{
@@ -9,13 +9,13 @@ export const Wrapper = styled.div`
     height:100vh;
     width:100%;
     box-sizing:border-box;
-    background:#9ce9e9;
+    background:white;
     .container-nav{
         width:55%;
         display:flex;
         flex-direction:column;
         background:white;
-        padding: 25px 10px 30px 20px;
+        padding: 25px 10px 30px 25px;
         box-sizing: border-box;
         .main-nav{
             .nav{
@@ -86,5 +86,127 @@ export const Wrapper = styled.div`
             }
         }
     }
+
+    .png{
+        margin: 25px 10px 30px 25px;
+        box-sizing:border-box;
+        width:45%;
+        background:url(${Group6}) no-repeat center right / contain;
+    }
+{/* Un comentario JSX 
+
+    .grid{
+        width:45%;
+        gap:0;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows:repeat(5, 1fr);
+        padding: 25px 10px 30px 25px;
+        box-sizing: border-box;
+        min-width: 750px;
+        .casilla{
+            padding:50%;
+        }
+        .casilla:nth-child(1){
+            
+            border-radius: 0px 70px 70px 70px;
+            background: #4ECDC4;
+            
+        }
+        .casilla:nth-child(2){
+            
+            background: #1A535C;
+            border-radius: 0px 70px 0px 0px;
+        }
+        .casilla:nth-child(3){
+            
+            background: #FA6B6C;
+            border-radius: 70px;
+        }
+        .casilla:nth-child(4){
+            
+            background: #FEE66E;
+            border-radius: 0px 0px 70px 0px;
+        }
+        .casilla:nth-child(5){
+            
+            background: #FEE66E;
+            border-radius: 70px 0px 0px 0px;
+        }
+        .casilla:nth-child(6){
+            
+            border-radius: 0px 0px 70px 0px;
+            background: #4ECDC4;
+        }
+        .casilla:nth-child(7){
+            
+            border-radius: 70px 70px 0px 0px;
+            background: #FDE56D;
+        }
+        .casilla:nth-child(8){
+            
+            background: #FA6B6C;
+            border-radius: 0px 70px 70px 0px;
+        }
+        .casilla:nth-child(9){
+            
+            background: #000000;
+            border-radius: 70px 0px 0px 0px;
+        }
+        .casilla:nth-child(10){
+            
+            background: #000000;
+            border-radius: 0px 0px 70px 0px;
+        }
+        .casilla:nth-child(11){
+            
+            background: #4ECDC4;
+        }
+        .casilla:nth-child(12){
+            
+            border-radius: 70px 0px 0px 70px;
+            background: #FDE56D;
+        }
+        .casilla:nth-child(13){
+            
+            background: #1A535C;
+            border-radius: 70px 0px 0px 0px;
+        }
+        .casilla:nth-child(14){
+            
+            background: #FA6B6C;
+            border-radius: 70px;
+        }
+        .casilla:nth-child(15){
+            
+            background: #000000;
+            border-radius: 0px 0px 0px 70px;
+        }
+        .casilla:nth-child(16){
+            
+            background: #000000;
+            
+        }
+        .casilla:nth-child(17){
+            
+            background: #FEE66E;
+            border-radius: 70px 0px 70px 0px;
+        }
+        .casilla:nth-child(18){
+            
+            background: #FA6B6C;
+            border-radius: 0px 0px 70px 70px;
+        }
+        .casilla:nth-child(19){
+            
+            background: #4ECDC4;
+        }
+        .casilla:nth-child(20){
+            
+            background: #1A535C;
+            border-radius: 0px 70px 0px 70px;
+        }
+    }
+    */}
 }
 `
