@@ -14,9 +14,17 @@ ${normalize()}
     box-sizing:border-box;
 
     &:hover {
-      color: ${props => props.theme.primary.purple};
-      text-decoration: underline;
+      color: ${props => props.theme.primary};
+      text-decoration: none;
     }
+  }
+  .cute-click{
+    background-color: #4ECDC4;
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px 20px 0px 20px;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    color: white;
   }
   .boton{
     color: #ffffff;

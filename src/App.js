@@ -1,7 +1,7 @@
 import { Route, Switch } from "react-router"
 import logo from './logo.svg';
 import './App.css';
-import {Home} from './scenes/Home'
+import {Hometwo} from './scenes/Hometwo'
 import { Dashboard } from './scenes/Dashboard'
 import { ThemeProvider } from 'styled-components';
 import {theme} from './resources/theme'
@@ -13,7 +13,7 @@ function App() {
       <GlobalStyles/>
       <Switch>
         <Route exact path="/">
-          <Home />
+          <Hometwo />
         </Route>
         <Route path="/dashboard">
           <Dashboard />
