@@ -5,8 +5,7 @@ export const Wrapper = styled.div`
     position: relative;
     display: inline-block;
     width: 31.5%;
-    height: auto;
-    position:relative;
+    height: 410px;
     
     .boton-flash{
 
@@ -43,7 +42,8 @@ export const Wrapper = styled.div`
     
     .container-cv{
         box-sizing: border-box;
-        background: #FEE66E;     
+        background: #4ECDC4;     
+        position:relative;
         width: 90%;
         height:90%;
         padding-left: 35px;
@@ -51,14 +51,13 @@ export const Wrapper = styled.div`
         padding-top: 35px;
         padding-bottom: 20px;
         border-radius: 100px 0px 100px 0px;
-        position:relative;
         .cv{
             position:absolute;
             width: 100%;
             a{
                 img{
                     width: 100%;
-                    box-shadow: 1px 1px 4px 1px #949494;
+                    box-shadow: 1px 1px 4px 1px #c2c2c2;
                 }
             }
             

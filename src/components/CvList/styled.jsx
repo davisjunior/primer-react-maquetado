@@ -5,9 +5,12 @@ export const Wrapper = styled.div`
     width: 100%;
     padding-right: 45px;
     padding-left: 45px;
+    padding-top: 100px;
+    margin-top: 60px;
     justify-content: space-between;
     display: flex;
     box-sizing:border-box;
+    background:#F7FFF7;
 
 @media (max-width: 768px){
     flex-wrap:wrap;
