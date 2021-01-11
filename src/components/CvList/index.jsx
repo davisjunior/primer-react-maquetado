@@ -6,8 +6,7 @@ import { Wrapper } from './styled'
 
 import { Nav } from './components/Nav'
 import { CvItem } from './components/CvItem'
-import { CvItemtwo } from './components/CvItemtwo'
-import { CvItemthree } from './components/CvItemthree'
+
 
 export const CvList = () =>{
     return(
@@ -18,7 +17,7 @@ export const CvList = () =>{
             <Wrapper>
                 
                 <CvItem/>
-                <CvItemtwo/>
+                <CvItem/>
                 <CvItem/>
                 
                 

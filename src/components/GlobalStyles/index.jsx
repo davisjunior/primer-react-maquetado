@@ -26,6 +26,15 @@ ${normalize()}
     font-family: 'Mulish', sans-serif;
     color: white;
   }
+  .cute-click-cv{
+    background-color: #4ECDC4;
+    padding: 18px 35px 18px 35px;
+    border-radius: 30px 30px 0px 30px;
+    font-size: 18px;
+    font-weight:600;
+    font-family: 'Mulish',sans-serif;
+    color: white;
+  }
   .boton{
     color: #ffffff;
     text-decoration:none;
