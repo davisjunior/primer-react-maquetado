@@ -35,6 +35,16 @@ ${normalize()}
     font-family: 'Mulish',sans-serif;
     color: white;
   }
+  .cute-click-go{
+    background-color: #4ECDC4;
+    padding: 15px 75px 15px 75px;
+    border-radius: 25px 25px 0px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    box-shadow: 0px 3px 10px 0px rgb(140 140 140);
+  }
   .boton{
     color: #ffffff;
     text-decoration:none;
