@@ -7,7 +7,9 @@ ${normalize()}
   body {
     font-family: ${props => props.theme.fontFamily};
   }
-
+  li{
+    list-style:none;
+  }
   a {
     color: ${props => props.theme.primary.fontColor};
     text-decoration:none;

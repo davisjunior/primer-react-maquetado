@@ -109,6 +109,7 @@ export const Wrapper = styled.header`
                             height: auto;
                             width: 99vw;
                             left: -93vw;
+                            display:none;
                         }
                     }
                     .submenu-header-mobile{
@@ -116,7 +117,7 @@ export const Wrapper = styled.header`
                         top: 50px;
                         //width: 100%;
                         //height: auto;
-                        display: block;
+                        display: none;
                         background:white;
                         //left: -2160%;
                         //width: auto;

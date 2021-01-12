@@ -1,8 +1,12 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.header`
+    position: sticky;
+    top: 0px;
+    z-index:99999;
+    
 header{
-
+    background-color:white;
     width: 100%;
     height: auto;
     padding-top: 20px;
@@ -693,6 +697,7 @@ header{
                             height: auto;
                             width: 99vw;
                             left: -93vw;
+                            display:none;
                         }
                     }
                     .submenu-header-mobile{
@@ -700,7 +705,7 @@ header{
                         top: 50px;
                         //width: 100%;
                         //height: auto;
-                        display: block;
+                        display: none;
                         background:white;
                         //left: -2160%;
                         //width: auto;

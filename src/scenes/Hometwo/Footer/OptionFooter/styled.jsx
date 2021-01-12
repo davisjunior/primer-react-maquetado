@@ -109,5 +109,22 @@ export const Wrapper = styled.div`
                 }
             }
         }
+        .red-social{
+            position: absolute;
+            right: 30px;
+            display: flex;
+            bottom: 10px;
+            .icon{
+                margin-left:15px;
+                img{
+                    width:40px;
+                    height:auto;
+                }
+                &:nth-child(1){
+                    margin-left:0px;
+                }
+            }
+            
+        }
     }
 `
