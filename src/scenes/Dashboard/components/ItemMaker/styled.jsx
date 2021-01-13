@@ -77,8 +77,6 @@ padding-top:40px;
     }
 }
 @media (max-width: 768px){
-    padding-top:40px;
-    box-sizing:border-box;
     .main-maker{
         a{
             .cv{
@@ -94,53 +92,24 @@ padding-top:40px;
     }
 }
 @media (max-width: 540px){
-    padding-top:40px;
-    box-sizing:border-box;
     .main-maker{
         a{
             .cv{
                 width: 110px;
                 height: 160px;
             }   
-        }
-        .publisher{
-            height:auto;
-            padding:0px 0px 0px 40px;
-            box-sizing:border-box;
         }
     }
 }
 @media (max-width: 420px){
-    padding-top:40px;
-    box-sizing:border-box;
-    .main-maker{
-        a{
-            .cv{
-                width: 110px;
-                height: 160px;
-            }   
-        }
-        .publisher{
-            height:auto;
-            padding:0px 0px 0px 40px;
-            box-sizing:border-box;
-        }
-    }
 }
 @media (max-width: 360px){
-    padding-top:40px;
-    box-sizing:border-box;
     .main-maker{
         a{
             .cv{    
                 width: 100px;
                 height: 145px;
             }   
-        }
-        .publisher{
-            height:auto;
-            padding:0px 0px 0px 40px;
-            box-sizing:border-box;
         }
     }
 }

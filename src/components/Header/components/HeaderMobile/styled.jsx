@@ -21,12 +21,13 @@ export const Wrapper = styled.header`
             height: auto;
             top: 45px;
             padding: 25px 0px 25px 0px;
+            
             .part-top{
                 margin-bottom:30px;
                 .texto{
                     margin-bottom:15px;
                     a{
-                        color:#707070;
+                        color:#2d2d2d;
                         font-family: 'Asap', sans-serif;
                         font-weight:600;
                         font-size:20px;
@@ -47,7 +48,7 @@ export const Wrapper = styled.header`
                 .texto{
                     margin-bottom:15px;
                     a{
-                        color:#707070;
+                        color:#2d2d2d;
                         font-family: 'Asap', sans-serif;
                         font-weight:600;
                         font-size:20px;
@@ -105,6 +106,7 @@ export const Wrapper = styled.header`
 
 @media (max-width: 1100px){
         .mobile-header{
+            
             display: flex;
             width: 100%;
             height: 80px;
@@ -131,12 +133,13 @@ export const Wrapper = styled.header`
                     }
                     &:hover{
                         .submenu-header-mobile{
-                            
+                           
                         }
                     }
                     .submenu-header-mobile{
                         position:absolute;
                         left:0px;
+                        display:none;
                         
                         
                     }

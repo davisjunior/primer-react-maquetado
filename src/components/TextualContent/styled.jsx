@@ -360,9 +360,6 @@ export const Wrapper = styled.div`
                 span{
                     font-size: 17px;
                     color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
                     font-weight: 600;
                 }
             }
@@ -374,58 +371,19 @@ export const Wrapper = styled.div`
 }
 @media (max-width: 768px){
     .container-texto-page{
-        padding: 70px 6% 0px 6%;
         .text-info-left{
-            width: 100%;
-            p{
-                font-size: 18px;
-            }
-            ol{
-                li{
-                    font-size: 18px;
-                    p{
-                        font-size: 18px;
-                    }
-                }
-            }
             .container-list-horizontal{
                 .do-dont{
                     width:39%;
                     box-sizing:border-box;
                 }
             }
-            .box-green{
-                padding: 20px 20px 20px 30px;
-                box-sizing:border-box;
-                p{
-                    font-size: 12px;
-                    i{
-                        font-size: 14px;
-                    }
-                }
-                span{
-                    font-size: 17px;
-                    color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
-                    font-weight: 600;
-                }
-            }
-        }
-        .image-sticky{
-            display: none;
         }
     }
 }
 @media (max-width: 540px){
     .container-texto-page{
-        padding: 70px 6% 0px 6%;
         .text-info-left{
-            width: 100%;
-            p{
-                font-size: 18px;
-            }
             .container-cake{
                 a{
                     .cakes{
@@ -438,37 +396,18 @@ export const Wrapper = styled.div`
                     }
                 }
             }
-            ol{
-                li{
-                    font-size: 18px;
-                    p{
-                        font-size: 18px;
-                    }
-                }
-            }
             .box-green{
-                padding: 20px 20px 20px 30px;
-                box-sizing:border-box;
                 p{
                     font-size: 12px;
-                    i{
-                        font-size: 14px;
-                    }
                 }
                 span{
                     font-size: 17px;
-                    color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
-                    font-weight: 600;
                 }
             }
             .container-list-horizontal{
                 display: block;
                 .do-dont{
                     width: 100%;
-                    box-sizing:border-box;
                 }
             }
             .container-box-and-buttom{
@@ -498,58 +437,12 @@ export const Wrapper = styled.div`
                     }
                 }
             }
-        }
-        .image-sticky{
-            display: none;
         }
     }
 }
 @media (max-width: 420px){
     .container-texto-page{
-        padding: 70px 6% 0px 6%;
         .text-info-left{
-            width: 100%;
-            p{
-                font-size: 18px;
-            }
-            .container-cake{
-                a{
-                    .cakes{
-                        display: block;
-                        img{
-                            width: 100%;
-                            height: auto;
-                            border-radius: 15px 15px 0px 0px;
-                        }
-                    }
-                }
-            }
-            ol{
-                li{
-                    font-size: 18px;
-                    p{
-                        font-size: 18px;
-                    }
-                }
-            }
-            .box-green{
-                padding: 20px 20px 20px 30px;
-                box-sizing:border-box;
-                p{
-                    font-size: 12px;
-                    i{
-                        font-size: 14px;
-                    }
-                }
-                span{
-                    font-size: 17px;
-                    color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
-                    font-weight: 600;
-                }
-            }
             .container-list-horizontal{
                 display: block;
                 .do-dont{
@@ -557,209 +450,12 @@ export const Wrapper = styled.div`
                     box-sizing:border-box;
                 }
             }
-            .container-box-and-buttom{
-                width: 80%;
-                margin-top: 50px;
-                left: 0;
-                right: 0;
-                margin: auto;
-                a{
-                    .box-and-buttom{
-                        padding: 12px 7% 40px 6%;
-                        display: block;
-                        width: 100%;
-                        background-color: #f2efea;
-                        text-align: center;
-                        .box-img{
-                            margin-bottom: -5px;
-                            width: 100%;
-                        }
-                        .box-text{
-                            border-top: 1px solid black;
-                            width: 100%;
-                            span{
-                                font-weight: 100;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .image-sticky{
-            display: none;
+            
         }
     }
 }
 @media (max-width: 360px){
-    .container-texto-page{
-        padding: 70px 6% 0px 6%;
-        .text-info-left{
-            width: 100%;
-            p{
-                font-size: 18px;
-            }
-            .container-cake{
-                a{
-                    .cakes{
-                        display: block;
-                        img{
-                            width: 100%;
-                            height: auto;
-                            border-radius: 15px 15px 0px 0px;
-                        }
-                    }
-                }
-            }
-            ol{
-                li{
-                    font-size: 18px;
-                    p{
-                        font-size: 18px;
-                    }
-                }
-            }
-            .box-green{
-                padding: 20px 20px 20px 30px;
-                box-sizing:border-box;
-                p{
-                    font-size: 12px;
-                    i{
-                        font-size: 14px;
-                    }
-                }
-                span{
-                    font-size: 17px;
-                    color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
-                    font-weight: 600;
-                }
-            }
-            .container-list-horizontal{
-                display: block;
-                .do-dont{
-                    width: 100%;
-                    box-sizing:border-box;
-                }
-            }
-            .container-box-and-buttom{
-                width: 80%;
-                margin-top: 50px;
-                left: 0;
-                right: 0;
-                margin: auto;
-                a{
-                    .box-and-buttom{
-                        padding: 12px 7% 40px 6%;
-                        display: block;
-                        width: 100%;
-                        background-color: #f2efea;
-                        text-align: center;
-                        .box-img{
-                            margin-bottom: -5px;
-                            width: 100%;
-                        }
-                        .box-text{
-                            border-top: 1px solid black;
-                            width: 100%;
-                            span{
-                                font-weight: 100;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .image-sticky{
-            display: none;
-        }
-    }
 }
 @media (max-width: 280px){
-    .container-texto-page{
-        padding: 70px 6% 0px 6%;
-        .text-info-left{
-            width: 100%;
-            p{
-                font-size: 18px;
-            }
-            .container-cake{
-                a{
-                    .cakes{
-                        display: block;
-                        img{
-                            width: 100%;
-                            height: auto;
-                            border-radius: 15px 15px 0px 0px;
-                        }
-                    }
-                }
-            }
-            ol{
-                li{
-                    font-size: 18px;
-                    p{
-                        font-size: 18px;
-                    }
-                }
-            }
-            .box-green{
-                padding: 20px 20px 20px 30px;
-                box-sizing:border-box;
-                p{
-                    font-size: 12px;
-                    i{
-                        font-size: 14px;
-                    }
-                }
-                span{
-                    font-size: 17px;
-                    color: #262b33;
-                    margin-bottom: 10px;
-                    line-height: 40px;
-                    letter-spacing: 1.5px;
-                    font-weight: 600;
-                }
-            }
-            .container-list-horizontal{
-                display: block;
-                .do-dont{
-                    width: 100%;
-                    box-sizing:border-box;
-                }
-            }
-            .container-box-and-buttom{
-                width: 80%;
-                margin-top: 50px;
-                left: 0;
-                right: 0;
-                margin: auto;
-                a{
-                    .box-and-buttom{
-                        padding: 12px 7% 40px 6%;
-                        display: block;
-                        width: 100%;
-                        background-color: #f2efea;
-                        text-align: center;
-                        .box-img{
-                            margin-bottom: -5px;
-                            width: 100%;
-                        }
-                        .box-text{
-                            border-top: 1px solid black;
-                            width: 100%;
-                            span{
-                                font-weight: 100;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .image-sticky{
-            display: none;
-        }
-    }
 }
 `

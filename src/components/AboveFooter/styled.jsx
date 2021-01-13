@@ -112,63 +112,16 @@ export const Wrapper = styled.div`
     }
     
 }
-@media (max-width: 768px){
-    padding-bottom: 90px;
-    .img-cv-pre-footer{
-        margin-top: 40px;
-        .img-cv-one{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-two{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-three{
-            width: 150px;
-            height: 205px;
-        }
-    }
-    .text-right-img-cv{
-        padding-top: 40px;
-        width: 100%;
-        padding-right: 3%;
-        h1{
-            font-family: "Roboto", sans-serif;
-            font-size: 35px;
-            color: #262b33;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
-    }
-}
+
 @media (max-width: 540px){
     padding-bottom: 90px;
-    .img-cv-pre-footer{
-        margin-top: 40px;
-        .img-cv-one{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-two{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-three{
-            width: 150px;
-            height: 205px;
-        }
-    }
+    
     .text-right-img-cv{
-        padding-top: 40px;
         width: 70%;
-        padding-right: 3%;
         h1{
             font-family: "Roboto", sans-serif;
             font-size: 23px;
-            color: #262b33;
-            font-weight: bold;
-            margin-bottom: 15px;
+            
         }
         p{
             font-size: 14px;
@@ -181,21 +134,7 @@ export const Wrapper = styled.div`
     padding-bottom: 90px;
     text-align: center;
     padding-top: 10px;
-    .img-cv-pre-footer{
-        margin-top: 40px;
-        .img-cv-one{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-two{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-three{
-            width: 150px;
-            height: 205px;
-        }
-    }
+    
     .text-right-img-cv{
         padding-top: 275px;
         width: 70%;
@@ -205,53 +144,20 @@ export const Wrapper = styled.div`
         h1{
             font-family: "Roboto", sans-serif;
             font-size: 23px;
-            color: #262b33;
-            font-weight: bold;
-            margin-bottom: 15px;
-                }
-        p{
-            font-size: 14px;
-            font-weight: 100;
         }
+        
     }
 }
 @media (max-width: 360px){
-    display: block;
-    padding-bottom: 90px;
-    text-align: center;
-    padding-top: 10px;
-    .img-cv-pre-footer{
-        margin-top: 40px;
-        .img-cv-one{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-two{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-three{
-            width: 150px;
-            height: 205px;
-        }
-    }
+
     .text-right-img-cv{
-        padding-top: 275px;
-        width: 70%;
-        left: 0;
-        right: 0;
-        margin: auto;
+
         h1{
             font-family: "Roboto", sans-serif;
             font-size: 23px;
-            color: #262b33;
-            font-weight: bold;
-            margin-bottom: 15px;
+            
         }
-        p{
-            font-size: 14px;
-            font-weight: 100;
-        }
+        
     }
 }
 @media (max-width: 280px){
@@ -259,33 +165,13 @@ export const Wrapper = styled.div`
     padding-bottom: 90px;
     text-align: center;
     padding-top: 10px;
-    .img-cv-pre-footer{
-        margin-top: 40px;
-        .img-cv-one{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-two{
-            width: 150px;
-            height: 205px;
-        }
-        .img-cv-three{
-            width: 150px;
-            height: 205px;
-        }
-    }
+
     .text-right-img-cv{
-        padding-top: 275px;
-        width: 70%;
-        left: 0;
-        right: 0;
-        margin: auto;
+
         h1{
             font-family: "Roboto", sans-serif;
             font-size: 23px;
-            color: #262b33;
-            font-weight: bold;
-            margin-bottom: 15px;
+
         }
         p{
             font-size: 14px;

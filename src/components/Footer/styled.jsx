@@ -210,10 +210,6 @@ footer{
                         }
                     }
                     .submenu-footer-mobile{
-                        //display: inline-flex;
-                        //height: 240px;
-                        //background: hsla(0,0%,100%,.1);
-                        //padding: 25px;
                         height: 0;
                         flex-direction: column;
                         overflow: hidden;
@@ -244,173 +240,19 @@ footer{
 }
 @media (max-width: 420px){
     footer{
-        padding: 100px 4% 30px 4%;
         .container-main-footer{
-            display: block;
             .container-footer-left{
                 width: 80%;
-                margin-bottom: 25px;
-                .icon-red-social{
-                    margin-top: 15px;
-                }
-            }
-            .center-right{
-                display: none;
-            }
-            .footer-mobile{
-                display: block;
-                .menu-footer-mobile{
-                    display: block;
-                    
-                    width: 100%;
-                    padding-bottom: 15px;
-                    padding-top: 15px;
-                    
-                    &:hover{
-                        .submenu-footer-mobile{
-                            transition: 0.5s ease;
-                            
-                            display: inline-flex;
-                            flex-direction: column;
-                            height: 240px;
-                            background: hsla(0,0%,100%,.1);
-                            padding: 25px;
-                            box-sizing:border-box;
-                            width: 80%;
-                                
-                            
-                        }
-                    }
-                    .container-option-icon{
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        border-bottom: 1px solid hsla(0,0%,100%,.1);
-                        p{
-                            color: white;
-                            font-weight: 600;
-                            font-size: 16px;
-                        }
-                        span{
-                            color: white;
-                            font-size: 18px;
-                        }
-                    }
-                    .submenu-footer-mobile{
-                        //display: inline-flex;
-                        //height: 240px;
-                        //background: hsla(0,0%,100%,.1);
-                        //padding: 25px;
-                        height: 0;
-                        flex-direction: column;
-                        overflow: hidden;
-                        transition: 0.1s ease;
-                        box-sizing:border-box;
-                        width: 80%;
-                        
-                        a{
-                            color: white;
-                            font-size: 14px;
-                            padding-bottom: 22px;
-                        }
-                        a:nth-child(5){
-                            padding-bottom: 0;
-                        }
-                        
-                        
-                    }
-                    
-                    
-                }
-                .menu-footer-mobile:nth-child(4){
-                    border: none;
-                }
             }
         }
     }
 }
 @media (max-width: 360px){
     footer{
-        padding: 100px 4% 30px 4%;
         .container-main-footer{
             display: block;
             .container-footer-left{
                 width: 80%;
-                margin-bottom: 25px;
-                .icon-red-social{
-                    margin-top: 15px;
-                }
-            }
-            .center-right{
-                display: none;
-            }
-            .footer-mobile{
-                display: block;
-                .menu-footer-mobile{
-                    display: block;
-                    
-                    width: 100%;
-                    padding-bottom: 15px;
-                    padding-top: 15px;
-                    
-                    &:hover{
-                        .submenu-footer-mobile{
-                            transition: 0.5s ease;
-                            box-sizing:border-box;
-                            width: 80%;
-                            display: inline-flex;
-                            flex-direction: column;
-                            height: 240px;
-                            background: hsla(0,0%,100%,.1);
-                            padding: 25px;
-                                
-                            
-                        }
-                    }
-                    .container-option-icon{
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        border-bottom: 1px solid hsla(0,0%,100%,.1);
-                        p{
-                            color: white;
-                            font-weight: 600;
-                            font-size: 16px;
-                        }
-                        span{
-                            color: white;
-                            font-size: 18px;
-                        }
-                    }
-                    .submenu-footer-mobile{
-                        //display: inline-flex;
-                        //height: 240px;
-                        //background: hsla(0,0%,100%,.1);
-                        //padding: 25px;
-                        height: 0;
-                        flex-direction: column;
-                        overflow: hidden;
-                        transition: 0.1s ease;
-                        box-sizing:border-box;
-                        width: 80%;
-                        
-                        a{
-                            color: white;
-                            font-size: 14px;
-                            padding-bottom: 22px;
-                        }
-                        a:nth-child(5){
-                            padding-bottom: 0;
-                        }
-                        
-                        
-                    }
-                    
-                    
-                }
-                .menu-footer-mobile:nth-child(4){
-                    border: none;
-                }
             }
         }
     }
@@ -418,86 +260,10 @@ footer{
 
 @media (max-width: 280px){
     footer{
-        padding: 100px 4% 30px 4%;
         .container-main-footer{
             display: block;
             .container-footer-left{
                 width: 80%;
-                margin-bottom: 25px;
-                .icon-red-social{
-                    margin-top: 15px;
-                }
-            }
-            .center-right{
-                display: none;
-            }
-            .footer-mobile{
-                display: block;
-                .menu-footer-mobile{
-                    display: block;
-                    
-                    width: 100%;
-                    padding-bottom: 15px;
-                    padding-top: 15px;
-                    
-                    &:hover{
-                        .submenu-footer-mobile{
-                            transition: 0.5s ease;
-                            box-sizing:border-box;
-                            width: 80%;
-                            display: inline-flex;
-                            flex-direction: column;
-                            height: 240px;
-                            background: hsla(0,0%,100%,.1);
-                            padding: 25px;
-                                
-                            
-                        }
-                    }
-                    .container-option-icon{
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        border-bottom: 1px solid hsla(0,0%,100%,.1);
-                        p{
-                            color: white;
-                            font-weight: 600;
-                            font-size: 16px;
-                        }
-                        span{
-                            color: white;
-                            font-size: 18px;
-                        }
-                    }
-                    .submenu-footer-mobile{
-                        //display: inline-flex;
-                        //height: 240px;
-                        //background: hsla(0,0%,100%,.1);
-                        //padding: 25px;
-                        height: 0;
-                        flex-direction: column;
-                        overflow: hidden;
-                        transition: 0.1s ease;
-                        box-sizing:border-box;
-                        width: 80%;
-                        
-                        a{
-                            color: white;
-                            font-size: 14px;
-                            padding-bottom: 22px;
-                        }
-                        a:nth-child(5){
-                            padding-bottom: 0;
-                        }
-                        
-                        
-                    }
-                    
-                    
-                }
-                .menu-footer-mobile:nth-child(4){
-                    border: none;
-                }
             }
         }
     }

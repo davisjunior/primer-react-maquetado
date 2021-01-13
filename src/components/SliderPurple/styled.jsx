@@ -122,110 +122,49 @@ export const Wrapper = styled.div`
     }
 }
 @media (max-width: 768px){
-    box-sizing:border-box;
-    padding: 60px 30px 50px 30px;
     .part-top-purple{
-        display: block;
-        .title-box-purple{
-            width: 52%;
-            margin-left: 2%;
-            h1{
-                font-family: "Roboto", sans-serif;
-                font-size: 37px;
-                color: white;
-                font-weight: bold;
-                line-height: 42px;
-            }
-        }
         .text-box-purple{
             width: 80%;
-            margin-left: 2%;
-        }
-    }
-    .main-carousel{
-        padding-left: 20px;
-        padding-right: 20px;
-        .carousel-cell{
-            width: 225px;
         }
     }
 }
 @media (max-width: 540px){
-    box-sizing:border-box;
-    padding: 60px 30px 50px 30px;
     .part-top-purple{
-        display: block;
         .title-box-purple{
-            width: 52%;
-            margin-left: 2%;
             h1{
                 font-family: "Roboto", sans-serif;
                 font-size: 24px;
-                color: white;
-                font-weight: bold;
-                line-height: 42px;
             }
         }
         .text-box-purple{
             width: 95%;
-            margin-left: 2%;
             p{
                 font-weight: 100;
                 font-size: 14px;
             }
-        }
-    }
-    .main-carousel{
-        padding-left: 20px;
-        padding-right: 20px;
-        .carousel-cell{
-            width: 225px;
         }
     }
 }
 @media (max-width: 420px){
-    box-sizing:border-box;
-    padding: 60px 30px 50px 30px;
     .part-top-purple{
-        display: block;
         margin-bottom: 35px;
         .title-box-purple{
             width: 85%;
-            margin-left: 2%;
             h1{
                 font-family: "Roboto", sans-serif;
                 font-size: 24px;
-                color: white;
-                font-weight: bold;
                 line-height: 35px;
             }
         }
         .text-box-purple{
             width: 95%;
-            margin-left: 2%;
-            p{
-                font-weight: 100;
-                font-size: 14px;
-            }
-        }
-    }
-    .main-carousel{
-        padding-left: 20px;
-        padding-right: 20px;
-        .carousel-cell{
-            width: 225px;
         }
     }
 }
 @media (max-width: 360px){
-    box-sizing:border-box;
-    padding: 60px 30px 50px 30px;
-    .part-top-purple{
-        display: block;
-        margin-bottom: 35px;
+    .part-top-purple{   
         .title-box-purple{
             width: 85%;
-            margin-left: 2%;
             h1{
                 font-family: "Roboto", sans-serif;
                 font-size: 24px;
@@ -233,55 +172,14 @@ export const Wrapper = styled.div`
                 font-weight: bold;
                 line-height: 35px;
             }
-        }
-        .text-box-purple{
-            width: 95%;
-            margin-left: 2%;
-            p{
-                font-weight: 100;
-                font-size: 14px;
-            }
-        }
-    }
-    .main-carousel{
-        padding-left: 20px;
-        padding-right: 20px;
-        .carousel-cell{
-            width: 225px;
         }
     }
 }
 @media (max-width: 280px){
-    box-sizing:border-box;
-    padding: 60px 30px 50px 30px;
     .part-top-purple{
-        display: block;
-        margin-bottom: 35px;
-        .title-box-purple{
-            width: 85%;
-            margin-left: 2%;
-            h1{
-                font-family: "Roboto", sans-serif;
-                font-size: 24px;
-                color: white;
-                font-weight: bold;
-                line-height: 35px;
-            }
-        }
+        margin-bottom: 35px; 
         .text-box-purple{
             width: 95%;
-            margin-left: 2%;
-            p{
-                font-weight: 100;
-                font-size: 14px;
-            }
-        }
-    }
-    .main-carousel{
-        padding-left: 20px;
-        padding-right: 20px;
-        .carousel-cell{
-            width: 225px;
         }
     }
 }

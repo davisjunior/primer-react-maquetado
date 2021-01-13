@@ -57,21 +57,9 @@ export const Wrapper = styled.div`
 @media (max-width: 540px){
     .content-options{
         width: 100%;
-        padding-bottom: 20px;
-        margin-bottom: 25px;
         padding-right: 2%;
         padding-left: 2%;
-        .options{
-            a{
-                padding-bottom: 20px;
-                &:hover{
-                    padding-bottom: 20px;
-                }
-                svg{
-                    display: none;
-                }
-            }
-        }
+        
     }
 }
 @media (max-width: 420px){
@@ -81,17 +69,7 @@ export const Wrapper = styled.div`
         margin-bottom: 25px;
         padding-right: 9%;
         padding-left: 9%;
-        .options{
-            a{
-                padding-bottom: 20px;
-                &:hover{
-                    padding-bottom: 20px;
-                }
-                svg{
-                    display: none;
-                }
-            }
-        }
+        
         .options:nth-child(4){
             display: none;
         }
@@ -102,22 +80,7 @@ export const Wrapper = styled.div`
 }
 @media (max-width: 360px){
     .content-options{
-        width: 100%;
-        padding-bottom: 20px;
-        margin-bottom: 25px;
-        padding-right: 9%;
-        padding-left: 9%;
-        .options{
-            a{
-                padding-bottom: 20px;
-                &:hover{
-                    padding-bottom: 20px;
-                }
-                svg{
-                    display: none;
-                }
-            }
-        }
+        
         .options:nth-child(4){
             display: none;
         }
@@ -127,29 +90,6 @@ export const Wrapper = styled.div`
     }
 }
 @media (max-width: 280px){
-    .content-options{
-            width: 100%;
-            padding-bottom: 20px;
-            margin-bottom: 25px;
-            padding-right: 9%;
-            padding-left: 9%;
-            .options{
-                a{
-                    padding-bottom: 20px;
-                    &:hover{
-                        padding-bottom: 20px;
-                    }
-                    svg{
-                        display: none;
-                    }
-                }
-            }
-            .options:nth-child(4){
-                display: none;
-            }
-            .options:nth-child(5){
-                display: none;
-            }
-        }
+
 }
 `

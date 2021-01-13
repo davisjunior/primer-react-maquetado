@@ -169,7 +169,7 @@ export const Wrapper = styled.div`
                         
                     }   
                     .option-cv-doc{
-                        min-width: 90px;
+                        max-width: 90px;
                         display: flex;
                         justify-content: space-between;
                         a{
@@ -252,35 +252,45 @@ export const Wrapper = styled.div`
 @media (max-width: 1100px){
     .container-cv{
         padding-bottom: 20px;
+        .boton-flash{
+            a{
+                padding:18px 15px 18px 15px; 
+                font-size:14px;  
+            }
+        }
         .down-cv{
             .circle-container{
                 
                 .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
                 }
                 .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
                 }
                 .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
                 }
                 .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
                 }
                 .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
                     margin-right:5px;
                 }
             }
             .option-cv-doc{
                 margin-top: -4px;
+                max-width: 20px;
                 a{
                     font-size: 10px;
+                    &:nth-child(2){
+                        display:none;
+                    }
                 }
             }
         }
@@ -294,52 +304,11 @@ export const Wrapper = styled.div`
         }
     }
 }
-@media (max-width: 768px){
+@media (max-width: 815px){
     width:48%;
 
-    .container-cv{
-        padding-bottom: 20px;
-        .down-cv{
-            .circle-container{
-                
-                .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
-                    margin-right:5px;
-                }
-            }
-            .option-cv-doc{
-                margin-top: -4px;
-                a{
-                    font-size: 10px;
-                }
-            }
-        }
-    }
-    .container-description-cv{
-        .title-black{
-            font-size: 20px;
-        }
-        .text-span{
-            font-size: 14px;
-        }
-    }
+    
+
 }
 @media (max-width: 540px){
     width:100%;
@@ -350,31 +319,8 @@ export const Wrapper = styled.div`
     .container-cv{
         padding-bottom: 30px;
         .down-cv{
-            .circle-container{
-                
-                .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
-                }
-            }
+            
             .option-cv-doc{
-                margin-top: -4px;
                 overflow:hidden;
                 a{
                     font-size: 7px;
@@ -383,170 +329,22 @@ export const Wrapper = styled.div`
         }
         .container-description-cv{
             margin-bottom: 40px;
-            .title-black{
-                font-size: 20px;
-            }
-            .text-span{
-                font-size: 14px;
-            }
         }
     }
 }
 
 @media (max-width: 420px){
-    width:100%;
-    &:nth-child(2){
-    margin-right: 0px;
-    margin-left: 0px;
-    }
-    .container-cv{
-        padding-bottom: 30px;
-        .down-cv{
-            .circle-container{
-                
-                .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
-                }
-            }
-            .option-cv-doc{
-                margin-top: -4px;
-                overflow:hidden;
-                a{
-                    font-size: 7px;
-                }
-            }
-        }
-        .container-description-cv{
-            margin-bottom: 40px;
-            .title-black{
-                font-size: 20px;
-            }
-            .text-span{
-                font-size: 14px;
-            }
-        }
-    }
 }
 @media (max-width: 360px){
-    width:100%;
-    &:nth-child(2){
-    margin-right: 0px;
-    margin-left: 0px;
-    }
-    .container-cv{
-        padding-bottom: 30px;
-        .down-cv{
-            .circle-container{
-                
-                .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
-                }
-            }
-            .option-cv-doc{
-                margin-top: -4px;
-                overflow:hidden;
-                a{
-                    font-size: 7px;
-                }
-            }
-        }
-        .container-description-cv{
-            margin-bottom: 40px;
-            .title-black{
-                font-size: 20px;
-            }
-            .text-span{
-                font-size: 14px;
-            }
-        }
-    }
 }
 @media (max-width: 280px){
-    width:100%;
-    &:nth-child(2){
-    margin-right: 0px;
-    margin-left: 0px;
-    }
+
     .container-cv{
         padding-bottom: 30px;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 15px;
-        .down-cv{
-            .circle-container{
-                
-                .circle:nth-child(1){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(2){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(3){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(4){
-                    width: 5px;
-                    height: 5px;
-                }
-                .circle:nth-child(5){
-                    width: 5px;
-                    height: 5px;
-                }
-            }
-            .option-cv-doc{
-                margin-top: -4px;
-                overflow:hidden;
-                a{
-                    font-size: 7px;
-                }
-            }
-        }
-        .container-description-cv{
-            margin-bottom: 40px;
-            .title-black{
-                font-size: 20px;
-            }
-            .text-span{
-                font-size: 14px;
-            }
-        }
+        
     }
 }
 `
