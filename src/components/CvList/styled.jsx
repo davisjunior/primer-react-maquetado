@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
     display: flex;
     box-sizing:border-box;
     background:#F7FFF7;
+    flex-wrap: wrap;
 
 @media (max-width: 768px){
     flex-wrap:wrap;

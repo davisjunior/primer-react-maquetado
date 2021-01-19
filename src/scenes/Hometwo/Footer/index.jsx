@@ -17,10 +17,25 @@ export const Footer = () => {
                         <div className="div7"></div>
                         <div className="div8"></div>
                     </div>
+                    <div className="grid-mobile">
+                        <div className="div1"></div>
+                        <div className="div2"></div>
+                        <div className="div3"></div>
+                        <div className="div4"></div>
+                        <div className="div5"></div>
+                        <div className="div6"></div>
+                        <div className="div7"></div>
+                        <div className="div8"></div>
+                    </div>
                 </div>
+                <div className="base-text"></div>
                 <div className="base-text"></div>
                 <div className="title-absolute">
                     <h1>Create a resume now</h1>
+                </div>
+                <div className="title-absolute-mobile">
+                    <h2>Create a</h2>
+                    <h2>resume now</h2>
                 </div>
                 <div className="go">
                     <a href="#" className="cute-click-go">Go</a>

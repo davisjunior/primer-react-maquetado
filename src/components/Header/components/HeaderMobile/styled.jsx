@@ -9,7 +9,7 @@ export const Wrapper = styled.header`
     .menu{
         &:hover{
             .submenu-header-mobile{
-                
+                display:block;
             }
         }
         .submenu-header-mobile{
@@ -21,6 +21,7 @@ export const Wrapper = styled.header`
             height: auto;
             top: 45px;
             padding: 25px 0px 25px 0px;
+            display:none;
             
             .part-top{
                 margin-bottom:30px;

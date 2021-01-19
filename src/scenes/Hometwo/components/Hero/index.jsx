@@ -2,13 +2,14 @@ import React from 'react'
 import { Wrapper } from './styled'
 
 import { useIsLarge } from '../../../../../src/hooks/responsive'
+import { HeroMobile } from '../HeroMobile'
 
 
 export const Hero = () => {
     const isMobileHeader = useIsLarge()
     return(
         <Wrapper>
-            {!isMobileHeader && (
+            {!isMobileHeader ? (
                 <div className="main">
                     <div className="container-nav">
                         <div className="main-nav">
@@ -69,7 +70,10 @@ export const Hero = () => {
                     </div>
                     */}
                 </div>
-            )}
+
+           ) : (
+            <HeroMobile/>
+           )}
                 
         </Wrapper>
     )
