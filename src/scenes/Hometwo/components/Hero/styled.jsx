@@ -81,8 +81,12 @@ export const Wrapper = styled.div`
             }
         }
         .button-cute{
-            .cute-click{
-                background-color:#4ECDC4;
+            width:146px;
+            height:auto;
+            transition:0.5s ease;
+            &:hover{
+                transform:scale(1.05);
+                transition:0.2s ease;
             }
         }
     }

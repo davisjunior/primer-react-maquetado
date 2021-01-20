@@ -268,7 +268,7 @@ export const Header = () => {
                         </li>
                         
                         <li><a href="/">Resume writing<FontAwesomeIcon icon={faAngleDown} /></a>
-                            <div className="container-submenu-3">
+                            <div className="container-submenu container-submenu-3">
                                 <div className="submenu-3-left">
                                     <div className="submenu-3-top">
                                         <div className="title-submenu">
@@ -356,7 +356,7 @@ export const Header = () => {
         
                         <li><a href="/">FAQ</a></li>
                         <li><a href="/">Log in</a></li>
-                        <li><a href="/" className="boton">Sing up </a></li>
+                        <li><a href="/" className="cute-click">Sing up </a></li>
         
                     </ul>
                 </nav>       

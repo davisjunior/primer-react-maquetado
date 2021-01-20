@@ -78,7 +78,14 @@ export const Wrapper = styled.div`
                 z-index: 99999;
                 text-align: center;
                 opacity:0;
-                transition:0.5s ease;
+                transition:0.5s ease;    
+                .main-button{
+                    transition:0.5s ease;
+                    &:hover{
+                        transform:scale(1.05);
+                        transition:0.2s ease;
+                    }
+                }         
             }
 
             &:hover{

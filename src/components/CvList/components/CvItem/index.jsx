@@ -11,7 +11,9 @@ export const CvItem = () =>{
             <div className="container-cv">
                 <div className="cv">
                     <div className="boton-flash">
-                        <a href="/" className="cute-click-cv">Use This Template</a>
+                        <div className="main-button">
+                            <a href="/" className="cute-click-cv">Use This Template</a>
+                        </div>
                     </div>
                     <a href="/">
                         <img src={Cv} alt=""/>

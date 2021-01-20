@@ -27,6 +27,12 @@ ${normalize()}
     font-size: 18px;
     font-family: 'Mulish', sans-serif;
     color: white;
+    transition:0.2s ease;
+    &:hover{
+      background-color:#1a535c;
+      transition:0.2s ease;
+      border-radius: 20px 20px 20px 20px;
+    }
   }
   .cute-click-cv{
     background-color: #4ECDC4;
@@ -36,6 +42,13 @@ ${normalize()}
     font-weight:600;
     font-family: 'Mulish',sans-serif;
     color: white;
+    transition:0.2s ease;
+    
+    &:hover{
+      background-color:#1a535c;
+      transition:0.2s ease;
+      border-radius: 30px 30px 30px 30px;
+    }
   }
   .cute-click-go{
     background-color: #4ECDC4;
@@ -46,6 +59,12 @@ ${normalize()}
     font-weight: 600;
     font-family: 'Asap', sans-serif;
     box-shadow: 0px 3px 10px 0px rgb(140 140 140);
+    transition:0.2s ease;
+    &:hover{
+      background-color:#1a535c;
+      transition:0.2s ease;
+      border-radius: 25px 25px 25px 25px;
+    }
   }
   .boton{
     color: #ffffff;

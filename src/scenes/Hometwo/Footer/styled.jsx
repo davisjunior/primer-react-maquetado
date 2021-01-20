@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     background-color:#4DCBC2;
     width:100%;
-    height:960px;
+    height:600px;
     position:relative;
     margin-top:350px;
     .box-go{
@@ -116,6 +116,11 @@ export const Wrapper = styled.div`
             position: absolute;
             bottom: 70px;
             right: 70px;
+            transition:0.5s ease;
+            &:hover{
+                transform:scale(1.05);
+                transition:0.2s ease;
+            }
         }
         
     }
@@ -132,6 +137,7 @@ export const Wrapper = styled.div`
     }
 }    
 @media (max-width: 768px){
+    height:1200px;
     .box-go{
         width: 80%;
         height: 700px;
@@ -279,14 +285,19 @@ export const Wrapper = styled.div`
     .box-go{
         .base-text{
             width:230px;
+            top:355px;
             &:nth-child(2){
                 min-width:320px;
+                top:440px;
             }
         }
         .title-absolute-mobile{
-            top:365px;
+            top:330px;
             h2{
                 font-size:50px;
+                &:nth-child(2){
+                    bottom:-80px;
+                }
             }
         }
         .go{
@@ -305,10 +316,13 @@ export const Wrapper = styled.div`
             }
         }
         .title-absolute-mobile{
-            top:367px;
+            top:330px;
             left:40px;
             h2{
                 font-size:40px;
+                &:nth-child(2){
+                    bottom:-85px;
+                }
             }
         }
         
@@ -327,12 +341,12 @@ export const Wrapper = styled.div`
             }
         }
         .title-absolute-mobile{
-            top:370px;
+            top:338px;
             left:40px;
             h2{
                 font-size:30px;
                 &:nth-child(2){
-                    bottom:-74px;
+                    bottom:-104px;
                 }
             }
         }

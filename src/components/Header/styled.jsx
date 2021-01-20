@@ -9,10 +9,10 @@ header{
     background-color:white;
     width: 100%;
     height: auto;
-    padding-top: 20px;
+    padding-top: 8px;
     padding-left: 30px;
     padding-right: 25px;
-    padding-bottom: 19px;
+    padding-bottom: 10px;
     box-sizing: border-box;
     .desktop{
         position: relative;
@@ -21,9 +21,8 @@ header{
         display: flex;
         justify-content: space-between;
         .logo{
-            //margin-right: 30%;
-            width: 130px;
-            height: 27px;
+            width: 10%;
+            height: auto;
             a{
                 img{
                     width: 100%;
@@ -37,31 +36,38 @@ header{
             
             li{
                 margin-right: 27px;
+                &:hover .container-submenu{
+                    display: flex;
+                    height: 450px;
+                    transition:0.2s ease;
+                }
                 a{
+                    font-family: 'Mulish',sans-serif;
                     padding-top: 0;
-                    padding-bottom: 0;
+                    padding-bottom: 30px;
                     font-size: 15px;
-                    text-shadow: 0px 1px #474242;
-                    color: #262b33;
+                    text-shadow: none;
+                    color: #707070;
                     letter-spacing: 1px;
                     svg{
                         margin-left: 10px;
                     }
                     &:hover{
-                        color:#1e81d3 ;
+                        color:#1a535c ;
                         transition: 0.5s ease;
-                        text-shadow:0px 1px #1e81d3;
+                        text-shadow:none;
                     }
                 }
                 .container-submenu{
-                    border-top: 1px solid rgb(206, 204, 204);
+                    
                     background: white  ;
-                    display: none;
                     position: absolute;
                     width: 100%;
-                    height: 450px;
+                    height: 0;
                     left: 0%;
-                    top: 46px;
+                    top: 60px;
+                    overflow:hidden;
+                    transition:0.2s ease;
                     .part-left{
                         margin-left: 6%;
                         margin-top: 50px;
@@ -70,24 +76,24 @@ header{
                             display: flex;
                             justify-content: space-between;
                             span{
+                                font-family: 'Mulish',sans-serif;
                                 .title-black{
-                                    color: #262b33;
+                                    color: #707070;
                                     font-size: 18px;
-                                    font-family: 'Roboto', sans-serif;
                                     transition: 0.5s ease;
                                     &:hover{
-                                        color: #2196f3;
+                                        color: #1a535c;
                                         transition: 0.5s ease;
                                     }
                                 }
                                 .title-blue{
-                                    color: #2196f3;
+                                    color: #707070;
                                     font-weight: 600;
                                     font-size: 18px;
                                     transition: 0.5s ease;
                                     text-shadow: none;
                                     &:hover{
-                                        color: #1c79c5;
+                                        color: #1a535c;
                                         transition: 0.5s ease;
 
                                     }
@@ -106,24 +112,24 @@ header{
                                     margin-bottom: 10px;
                                     display: flex;
                                     justify-content: space-between;
+                                    font-family: 'Mulish',sans-serif;
                                     a{
                                         text-shadow: none;
                                         padding: 0;
                                         color: #262b33;
-                                        font-family: 'Roboto', sans-serif;
                                         letter-spacing: 1px;
                                         transition: 0.5s ease;
                                         font-size: 16px;
                                         &:hover{
-                                            color: #1c79c5;
+                                            color: #1a535c;
                                             transition: 0.5s ease;
                                         }
                                         svg{
                                             margin-right: 15px;
-                                            color: #2196f3;
+                                            color: #1a535c;
                                             font-size: 18px;
                                             &:hover{
-                                                color:#1c79c5;;
+                                                color:#1a535c;
                                             }
                                         }
                                         
@@ -137,6 +143,7 @@ header{
                                 }
                                 .text-span{
                                     a{
+                                        font-family: 'Mulish',sans-serif;
                                         padding-top: 0;
                                         padding-bottom: 0;
                                         font-size: 12px;
@@ -163,7 +170,7 @@ header{
                             .content{
                                 margin-right: 55px;
                                 .block-title{
-                                    
+                                    font-family: 'Mulish',sans-serif;
                                     display: flex;
                                     justify-content: space-between;
                                     margin-bottom: 10px;
@@ -171,20 +178,19 @@ header{
                                         text-shadow: none;
                                         padding: 0;
                                         color: #262b33;
-                                        font-family: 'Roboto', sans-serif;
                                         letter-spacing: 1px;
                                         transition: 0.5s ease;
                                         font-size: 16px;
                                         &:hover{
-                                            color: #1c79c5;
+                                            color: #1a535c;
                                             transition: 0.5s ease;
                                         }
                                         svg{
                                             margin-right: 15px;
-                                            color: #2196f3;
+                                            color: #1a535c;
                                             font-size: 18px;
                                             &:hover{
-                                                color:#1c79c5;;
+                                                color:#1a535c;
                                             }
                                         }
                                     }
@@ -224,12 +230,13 @@ header{
                         .part-middle-title{
                             margin-bottom: 50px;
                             .title-black{
-                                color: #262b33;
+                                color: #707070;
+                                font-weight:600;
                                 font-size: 18px;
-                                font-family: 'Roboto', sans-serif;
+                                font-family: 'Mulish',sans-serif;
                                 transition: 0.5s ease;
                                 &:hover{
-                                    color: #2196f3;
+                                    color:#1a535c ;
                                     transition: 0.5s ease;
                                 }
                             }
@@ -238,6 +245,7 @@ header{
                             width: 270px;
                             background: white;
                             height: auto;
+                            
                             .list{
                                 height: auto;
                                 width: 100%;
@@ -248,15 +256,12 @@ header{
                                     a{
                                         padding-top: 0;
                                         padding-bottom: 0;
-                                        color: #262b33;
+                                        color: #707070;
                                         text-shadow: none;
-                                        
                                         font-size: 15px;
                                         &:hover{
-                                            color: #1c79c5;
-                                            text-shadow: 0px 1px #1c79c5;
+                                            color:#1a535c;
                                             transition: 0.5s ease;
-
                                         }
                                     }
                                 }
@@ -264,12 +269,12 @@ header{
                                     a{
                                         padding-top: 0;
                                         padding-bottom: 0;
-                                        color: #6f747a;
+                                        color: #707070;
                                         transition: 0.5s ease;
                                         text-shadow: none;
                                         &:hover{
                                             transition: 0.5s ease;
-                                            color: #202329;
+                                            color: #1a535c;
                                         } 
                                     }
                                 }
@@ -277,14 +282,14 @@ header{
                             .list:nth-child(6){
                                 .information{
                                     a{
-                                        color: #2196f3;
+                                        color: #707070;
                                         font-weight: 600;
                                         font-size: 16px;
                                         transition: 0.5s ease;
                                         text-shadow: none;
                                         
                                         &:hover{
-                                            color: #1c79c5;
+                                            color: #1a535c;
                                             transition: 0.5s ease;
 
                                         }
@@ -320,17 +325,16 @@ header{
                         }
                         .part-right-title{
                             display: block;
-                            //background: #c90e0e;
                             width: 230px;
                             margin-left: 14%;
                             .title-black{
-                                color: #262b33;
-                                font-family: "Roboto", sans-serif;
+                                color: #707070;
+                                font-family: 'Mulish',sans-serif;
                                 letter-spacing: 2px;
                                 transition: 0.5s ease;
                                 font-size: 18px;
                                 &:hover{
-                                    color: #1c79c5;
+                                    color:#1a535c;
                                     transition: 0.5s ease;
                                 }
                             }
@@ -355,20 +359,19 @@ header{
                                 }
                             }
                             .title-blue{
-                                color: #2196f3;
+                                color: #707070;
                                 font-weight: 600;
                                 font-size: 16px;
                                 text-shadow: none;
-                                transition: 0.5s ease;
-                                
+                                transition: 0.5s ease;                             
                                 &:hover{
-                                    color: #1c79c5;
+                                    color: #1a535c;
                                     transition: 0.5s ease;
-
                                 }
                                 svg{
                                     font-size: 20px;
                                     margin-left: 15px;
+                                    align-items:center;
                                 }
                             }
                         }
@@ -378,60 +381,17 @@ header{
             }
             // NTH CHILD ////////----------HEADER----------///////// NTH CHILD ///////////////////////////// NTH CHILD ///////////////////////////
             // NTH CHILD ////////----------HEADER----------///////// NTH CHILD ///////////////////////////// NTH CHILD ///////////////////////////
-            li:nth-child(1){
-                &:hover .container-submenu{
-                    display: flex;
-                }
-                a{
-                    color: #7a8599;
-                    text-shadow:none;
-                    transition: 0.5s ease;
-                    padding-bottom: 55px;
-                    padding-top: 40px;
-                    font-size: 15px;
-                    &:hover{
-                        color:#1e81d3 ;
-                        transition: 0.5s ease;
-                        text-shadow: none;
-                    }
-                }
-            }
-            li:nth-child(2){
-                &:hover .container-submenu{
-                    display: flex;
-                }
-                a{
-                    font-size: 15px;
-                    transition: 0.5s ease;
-                    padding-bottom: 55px;
-                    padding-top: 40px;
-                    &:hover{
-                        color:#1e81d3 ;
-                        transition: 0.5s ease;
-                        text-shadow: none;
-                    }
-                }
-            }
+            
+            
 
             li:nth-child(3){
                 a{
                     font-size: 15px;
-                    padding-bottom: 55px;
+                    padding-bottom: 30px;
                     padding-top: 40px;
                     
                 }
-                &:hover .container-submenu-3{
-                    display:flex ;
-                }
                 .container-submenu-3{
-                    border-top: 1px solid rgb(206, 204, 204);
-                    background: white ;
-                    display: none;
-                    position: absolute;
-                    width: 100%;
-                    height: 500px;
-                    left: 0%;
-                    top: 46px;
                     .submenu-3-left{
                         margin-left: 5%;
                         margin-right: 10%;
@@ -440,18 +400,19 @@ header{
                         width: 100%;
                         .submenu-3-top{
                             background: white;
+                            font-family: 'Mulish',sans-serif;
                             width: auto;
                             border-bottom: 1px solid rgb(206, 204, 204);
                             margin-bottom: 50px;
                             .title-submenu{
                                 margin-bottom: 40px;
                                 .Title-black{
-                                    color: #262b33;
+                                    color: #707070;
                                     font-size: 18px;
-                                    font-family: 'Roboto', sans-serif;
                                     transition: 0.5s ease;
+                                    font-family: 'Mulish',sans-serif;
                                     &:hover{
-                                        color: #2196f3;
+                                        color: #1a535c;
                                         transition: 0.5s ease;
                                     }
                                 }
@@ -476,19 +437,19 @@ header{
                                         a{
                                             text-shadow: none;
                                             padding: 0;
-                                            color: #262b33;
-                                            font-family: "Roboto", sans-serif;
+                                            color: #707070;
+                                            font-family: 'Mulish',sans-serif;
                                             font-size: 18px;
                                             letter-spacing: 2px;
                                             transition: 0.5s ease;
                                             &:hover{
-                                                color: #1c79c5;
+                                                color: #1a535c;
                                                 transition: 0.5s ease;
                                             }
                                             svg{
-                                              color:#2196f3;  
+                                              color:#1a535c;  
                                               &:hover{
-                                                  color: #1c79c5;
+                                                  color: #1a535c;
                                               }
                                             }
                                         }
@@ -519,17 +480,17 @@ header{
                             width: 100%;
                             justify-content: space-between;
                             .list{
+                                font-family: 'Mulish',sans-serif;
                                 .information{
                                     margin-bottom: 20px;
                                     a{
                                         padding-top: 0;
                                         padding-bottom: 0;
-                                        color: #262b33;
+                                        color: #707070;
                                         font-size: 15px;
-                                        text-shadow: 0px 1px #474242;
+                                        text-shadow:none;
                                         &:hover{
-                                            color: #1c79c5;
-                                            text-shadow: 0px 1px #1c79c5;
+                                            color: #1a535c;
                                             transition: 0.5s ease;
 
                                         }
@@ -538,14 +499,7 @@ header{
                             }
                             .list:nth-child(3){
                                 .information:nth-child(5){
-                                    a{
-                                        color: #2196f3;   
-                                        text-shadow: 0px 1px #2196f3; 
-                                        &:hover{
-                                            color: #1c79c5;
-                                            text-shadow: 0px 1px #1c79c5;
-                                        }  
-                                    }
+                                    margin-bottom:0px;
                                 }
                             }
                         }
@@ -571,13 +525,13 @@ header{
                         .part-right-title{
                             margin-left: 85px;
                             .title-black{
-                                color: #262b33;
+                                color: #707070;
                                 font-size: 18px;
                                 transition: 0.5s ease;
                                 padding-top: 0;
                                 padding-bottom: 0;
                                 &:hover{
-                                    color:  #2196f3;
+                                    color: #1a535c;
                                     transition: 0.5s ease;
                                 }
                             }
@@ -606,13 +560,13 @@ header{
                             margin-left: 85px;
                             width: 63%;
                             .title-blue{
-                                color: #2196f3;
+                                color: #707070;
                                 font-weight: 600;
                                 font-size: 16px;
                                 text-shadow: none;
                                 transition: 0.5s ease;
                                 &:hover{
-                                    color: #1c79c5;
+                                    color: #1a535c;
                                     transition: 0.5s ease;
 
                                 }
@@ -628,11 +582,10 @@ header{
                 padding-right: 40px;
                 a{
                     font-size: 15px;
-                    text-shadow: 0px 1px #474242;
-                    color: #262b33;
+                    text-shadow: none;
+                    color: #707070;
                     &:hover{
-                        color:#1e81d3 ;
-                        text-shadow:0px 1px #1e81d3;
+                        color:#1a535c ;
                         transition: 0.5s ease;
                     }
                 }
@@ -642,12 +595,17 @@ header{
                 margin-left: 30px;
                 a{
                     font-size: 15px;
-                    color: #2196f3;
-                    text-shadow:0px 1px #1e81d3;
+                    color: #1a535c;
+                    text-shadow:none;
                 }
             }
             li:nth-child(6){
                 margin-right: 0px;
+                transition:0.5s ease;
+                &:hover{
+                    transform:scale(1.05);
+                    transition:0.2s ease;
+                }
                 a{
                     padding-top: 11px;
                     padding-bottom: 13px;
@@ -655,6 +613,7 @@ header{
                     text-shadow: none;
                     color: white;
                     letter-spacing: 1px;
+                    background-color:#1a535c;
                 }
                 
             }
@@ -683,11 +642,11 @@ header{
                 display: flex;
                 justify-content: space-between;
                 .menu{
+                    width:50px;
                     position: relative;
                     a{
                         
                         svg{
-                            font-size: 25px;
                             color: #2196f3;
                         }
                         
@@ -712,6 +671,7 @@ header{
                         overflow: hidden;
                         height: 0;
                         width: 0;
+                        
                         
                         .part-header-mobile{
                             display: block;

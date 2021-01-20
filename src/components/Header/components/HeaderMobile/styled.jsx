@@ -7,6 +7,13 @@ export const Wrapper = styled.header`
         justify-content:space-between;
         position:relative;
     .menu{
+        width:25px;
+        padding-top:20px;
+        a{
+            svg{
+                font-size:25px;
+            }
+        }
         &:hover{
             .submenu-header-mobile{
                 display:block;

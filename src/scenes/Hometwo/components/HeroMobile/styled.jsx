@@ -78,13 +78,35 @@ background:#ffffff;
                 text-align:center;
                 margin-top: 90px;
                 height:auto;
-                a{
-                    font-size:25px;
-                    padding:30px 80px 30px 80px;
-                    border-radius: 40px 40px 0px 40px;
+                transition:0.5s ease;
+                &:hover{
+                    transform:scale(1.05);
                 }
+               
             }
         }
+    }
+}
+@media (max-width: 1100px){
+    .main-nav{
+        .fondo{
+
+            .presentation{
+                
+                .container{
+                    a{
+                        font-size: 40px;
+                        padding:40px 90px 40px 90px;
+                        border-radius:60px 60px 0px 60px;
+                        transition:0.5s ease;
+                        &:hover{
+                            border-radius:60px 60px 60px 60px;
+                            transition:0.2s ease;
+                        }
+                    }
+                }
+            }
+        } 
     }
 }
 @media (max-width: 768px){
@@ -95,6 +117,18 @@ background:#ffffff;
                 .title{
                     h1{
                         font-size:70px;
+                    }
+                }
+                .container{
+                    a{
+                        font-size: 30px;
+                        padding:30px 60px 30px 60px;
+                        border-radius:40px 40px 0px 40px;
+                        transition:0.5s ease;
+                        &:hover{
+                            border-radius:40px 40px 40px 40px;
+                            transition:0.2s ease;
+                        }
                     }
                 }
             }
