@@ -84,4 +84,9 @@ ${normalize()}
       text-decoration:none;
     }
   }
+  .mini-title{
+    letter-spacing:10px;
+    font-size:24px;
+    font-family: 'Mulish',sans-serif;
+  }
 `
