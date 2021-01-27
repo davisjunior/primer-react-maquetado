@@ -89,4 +89,11 @@ ${normalize()}
     font-size:24px;
     font-family: 'Mulish',sans-serif;
   }
+  .mini-title-white{
+    letter-spacing:0px;
+    font-size:23px;
+    color:#dadada;
+    font-family: 'Mulish',sans-serif;
+    font-weight:300;
+  }
 `

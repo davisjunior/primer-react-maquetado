@@ -17,7 +17,7 @@ export const CvModern = () => {
                     </div>
                     <div className="main-contact">
                         <div className="title-white">
-                            <h1>Contact</h1>
+                            <h1 className="mini-title-white">CONTACT</h1>
                         </div>
                         <div className="list-contact">
                             <ul>
@@ -51,12 +51,12 @@ export const CvModern = () => {
                     
                     <div className="main-education-reference">
                         <div className="title-white">
-                            <h1>EDUCATION</h1>
+                            <h1 className="mini-title-white ">EDUCATION</h1>
                         </div>
                         <div className="info-education">
                             <div className="education">
                                 <div>
-                                    <span>BLACK ADAM</span>
+                                    <span> <strong> BLACkk ADAM </strong></span>
                                 </div>
                                 <div>
                                     <span>El Gran unico Hercules</span>
@@ -67,7 +67,18 @@ export const CvModern = () => {
                             </div>
                             <div className="education">
                                 <div>
-                                    <span>BLACK ADAM</span>
+                                    <span><strong> BLACkk ADAM </strong></span>
+                                </div>
+                                <div>
+                                    <span>El Gran unico Hercules</span>
+                                </div>
+                                <div>
+                                    <span>sAN ANDREAS</span>
+                                </div>
+                            </div>
+                            <div className="education">
+                                <div>
+                                    <span><strong> BLACkk ADAM </strong></span>
                                 </div>
                                 <div>
                                     <span>El Gran unico Hercules</span>
@@ -80,12 +91,12 @@ export const CvModern = () => {
                     </div>
                     <div className="main-education-reference">
                         <div className="title-white">
-                            <h1>REFERENCES</h1>
+                            <h1 className="mini-title-white">REFERENCES</h1>
                         </div>
                         <div className="info-education">
                             <div className="education">
                                 <div>
-                                    <span>BLACK ADAM</span>
+                                    <span><strong> BLACkk ADAM </strong></span>
                                 </div>
                                 <div>
                                     <span>El Gran unico Hercules</span>
@@ -96,7 +107,31 @@ export const CvModern = () => {
                             </div>
                             <div className="education">
                                 <div>
-                                    <span>BLACK ADAM</span>
+                                    <span><strong> BLACkk ADAM </strong></span>
+                                </div>
+                                <div>
+                                    <span>El Gran unico Hercules</span>
+                                </div>
+                                <div>
+                                    <span>sAN ANDREAS</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="info-education">
+                            <div className="education">
+                                <div>
+                                    <span><strong> BLACkk ADAM </strong></span>
+                                </div>
+                                <div>
+                                    <span>El Gran unico Hercules</span>
+                                </div>
+                                <div>
+                                    <span>sAN ANDREAS</span>
+                                </div>
+                            </div>
+                            <div className="education">
+                                <div>
+                                    <span><strong> BLACkk ADAM </strong></span>
                                 </div>
                                 <div>
                                     <span>El Gran unico Hercules</span>
@@ -156,18 +191,23 @@ export const CvModern = () => {
                         </div>
                     </div>
                     <div className="main-skills">
-                        <div className="list">
-                            <ul>
-                                <li><span>Lorem, ipsum.</span></li>
-                                <li><span>Lorem, ipsum.</span></li>
-                            </ul>
+                        <div className="title-skill">
+                            <h1 className="mini-title">SKILLS</h1>
                         </div>
-                        <div className="list">
-                            <ul>
-                                <li><span>Lorem, ipsum.</span></li>
-                                <li><span>Lorem, ipsum.</span></li>
-                            </ul>
-                        </div>
+                        <div className="container-list">    
+                            <div className="list">
+                                <ul>
+                                    <li><span>Lorem, ipsum Lorem.</span></li>
+                                    <li><span>Lorem ipsum, ipsum.</span></li>
+                                </ul>
+                            </div>
+                            <div className="list">
+                                <ul>
+                                    <li><span>Lorem, ipsum Lorem.</span></li>
+                                    <li><span>Lorem ipsum, ipsum.</span></li>
+                                </ul>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>
