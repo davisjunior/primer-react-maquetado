@@ -10,6 +10,8 @@ import { CvSimple } from './components/Curriculums/CvSimple'
 import { CvBasic } from './components/Curriculums/CvBasic'
 import { CvModernOne } from './components/Curriculums/CvModernOne'
 import { CvModern } from './components/Curriculums/CvModern'
+import { CvMinimalist } from './components/Curriculums/CvMinimalist'
+import { CvNews } from './components/Curriculums/CvNews'
 
 function App() {
   return (
@@ -34,6 +36,14 @@ function App() {
 
         <Route path="/maker-cv-four">
           <CvModernOne/>
+        </Route>
+
+        <Route path="/maker-cv-five">
+          <CvMinimalist/>
+        </Route>
+
+        <Route path="/maker-cv-six">
+          <CvNews/>
         </Route>
         {/* HACER 404
         <Route>
