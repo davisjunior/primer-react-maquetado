@@ -66,6 +66,22 @@ ${normalize()}
       border-radius: 25px 25px 25px 25px;
     }
   }
+  .cute-click-go-re{
+    background-color:#1a535c ;
+    padding: 15px 75px 15px 75px;
+    border-radius: 25px 25px 0px 25px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Asap', sans-serif;
+    box-shadow: 0px 3px 10px 0px rgb(140 140 140);
+    transition:0.2s ease;
+    &:hover{
+      background-color:#4ECDC4;
+      transition:0.2s ease;
+      border-radius: 25px 25px 25px 25px;
+    }
+  }
   .boton{
     color: #ffffff;
     text-decoration:none;

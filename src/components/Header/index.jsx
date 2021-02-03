@@ -355,8 +355,8 @@ export const Header = () => {
                         
         
                         <li><a href="/">FAQ</a></li>
-                        <li><a href="/">Log in</a></li>
-                        <li><a href="/" className="cute-click">Sing up </a></li>
+                        <li><a href="http://192.168.0.152:3000/login">Log in</a></li>
+                        <li><a href="http://192.168.0.152:3000/signup" className="cute-click">Sing up </a></li>
         
                     </ul>
                 </nav>       

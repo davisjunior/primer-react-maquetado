@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import {Hometwo} from './scenes/Hometwo'
 import { Dashboard } from './scenes/Dashboard'
+
+import {Login } from '../src/scenes/Login'
+import {Signup } from '../src/scenes/Signup'
+
 import { ThemeProvider } from 'styled-components';
 import {theme} from './resources/theme'
 import { GlobalStyles} from './components/GlobalStyles'
@@ -24,6 +28,14 @@ function App() {
         <Route path="/dashboard">
           <Dashboard />
         </Route>
+
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/Signup">
+          <Signup />
+        </Route>
+
         <Route path="/maker-cv">
           <CvSimple />
         </Route>

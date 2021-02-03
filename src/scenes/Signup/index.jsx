@@ -1,8 +1,8 @@
 import React from 'react'
 import { Wrapper } from './styled'
 
-import { useIsLarge } from '../../../../src/hooks/responsive'
-import { HeroMobile } from '../components/HeroMobile'
+import { useIsTablet } from '../../hooks/responsive'
+import { StartMobile } from './StartMobile'
 import fc from './img/fc.png'
 import go from './img/go.png'
 import lin from './img/lin.png'
@@ -11,8 +11,8 @@ import acp from './img/acp.png'
 
 
 
-export const Start = () => {
-    const isMobileHeader = useIsLarge()
+export const Signup = () => {
+    const isMobileHeader =useIsTablet()
     return(
         <Wrapper>
             {!isMobileHeader ? (
@@ -55,7 +55,7 @@ export const Start = () => {
                 </div>
 
            ) : (
-            <HeroMobile/>
+            <StartMobile />
            )}
                 
         </Wrapper>

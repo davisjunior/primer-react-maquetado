@@ -93,9 +93,9 @@ export const Wrapper = styled.div`
                     font-family: 'Mulish',sans-serif;
                     color: #707070;
                     a{
-                        color:#4ECDC4;
+                        color: #1a535c;;
                         &:hover{
-                            border-bottom:1px solid #4ECDC4;
+                            border-bottom:1px solid #1a535c;
                         }
                     }
                 }
@@ -107,6 +107,9 @@ export const Wrapper = styled.div`
             margin-top:40px;
             div{
                 margin-right:30px;
+                a{
+                    padding:15px 60px 15px 60px;
+                }
             }
             div:nth-child(2){
                 margin-right:0px;
@@ -118,7 +121,7 @@ export const Wrapper = styled.div`
         margin: 25px 10px 30px 25px;
         box-sizing:border-box;
         width:45%;
-        background:url(${Group6}) no-repeat center right / contain;
+        background:url(${Group6}) no-repeat top right / contain;
     }
 
 }

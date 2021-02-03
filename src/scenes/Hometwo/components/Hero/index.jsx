@@ -25,7 +25,7 @@ export const Hero = () => {
                                         <a href="#">FAQ</a>
                                     </div>
                                     <div className="options">
-                                        <a href="#">Login</a>
+                                        <a href="http://192.168.0.152:3000/login">Login</a>
                                     </div>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@ export const Hero = () => {
                             <p>For free, create as many resume as you can image bla bla bla <br/> another line</p>
                         </div>
                         <div className="button-cute">
-                            <a href="#" className="cute-click">Get started</a>
+                            <a href="http://localhost:3000/dashboard" className="cute-click">Get started</a>
                         </div>
                     </div>
                     <div className="png">
