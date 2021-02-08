@@ -16,6 +16,7 @@ import { CvModernOne } from './components/Curriculums/CvModernOne'
 import { CvModern } from './components/Curriculums/CvModern'
 import { CvMinimalist } from './components/Curriculums/CvMinimalist'
 import { CvNews } from './components/Curriculums/CvNews'
+import { Blog } from './scenes/Blog'
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
         </Route>
         <Route path="/dashboard">
           <Dashboard />
+        </Route>
+
+        <Route path="/blog">
+          <Blog />
         </Route>
 
         <Route path="/login">

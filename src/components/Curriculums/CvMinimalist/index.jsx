@@ -7,6 +7,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import Perfil from './img/perfil.png'
 
+
 export const CvMinimalist = () => {
     return (
         <Wrapper>

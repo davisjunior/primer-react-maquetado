@@ -190,4 +190,20 @@ export const Wrapper = styled.header`
         }
     }
 
+    @media (max-width: 540px){
+        .mobile-header{
+            nav{
+                .logo{
+                    width:68%;
+                    a{
+                        img{
+                            width:100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    
 `
