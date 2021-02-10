@@ -81,7 +81,7 @@ export const Wrapper = styled.div`
             }
         }
         .button-cute{
-            width:146px;
+            width: 160px;
             height:auto;
             transition:0.5s ease;
             &:hover{

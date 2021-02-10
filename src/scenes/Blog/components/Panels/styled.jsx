@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
         padding-left: 9%;
         box-sizing:border-box;
         margin-bottom: 165px;
+        margin-top: 220px;
 
         .title-and-button{
             display: flex;
@@ -15,16 +16,17 @@ export const Wrapper = styled.div`
             margin-bottom: 40px;
             h1{
                 font-size: 52px;
-                font-family: "Josefin Sans", sans-serif;
-                color: #070606;
+                color: #707070;
+                font-family: 'Mulish',sans-serif;
                 margin-right: 66%;
+                margin-bottom:0px;
             }
             .boton-java{
                 margin-top: 10px;
                 a{
                     margin-right: 15px;
                     svg{
-                        color: #e7eaec;
+                        color: #1a535c;
                         font-size: 35px;
                     }
                 }
@@ -41,18 +43,20 @@ export const Wrapper = styled.div`
                 justify-content: space-between;
                 height: auto;
                 background: white;
-                box-shadow: 0px 0px 30px #dddddd;
+                box-shadow: 0px 0px 30px #d1d1d1;
                 border-radius: 15px;
                 box-sizing:border-box;
-                padding: 45px 20px 15px 20px;
+                padding: 45px 20px 45px 20px;
                 margin-right: 20px;
                 margin-left: 20px;
                 ul{
+                    padding:0px;
                     h3{
-                        margin-bottom: 20px;
+                        margin-bottom: 40px;
+                        margin-top:0px;
                         font-size: 21px;
-                        font-family: "Josefin Sans", sans-serif;
-                        color: #070606;
+                        font-family: 'Mulish',sans-serif;
+                        color: #707070;
                         text-align: center;
                     }
                     li{
@@ -62,14 +66,14 @@ export const Wrapper = styled.div`
                         img{
                             width: 55px;
                             height: 40px;
-                            border-radius: 10px;
+                            border-radius: 15px 15px 0px 15px;
                             margin-right: 15px;
                         }
                         span{
                             font-weight: 300;
                             font-size: 16px;
-                            font-family: "Josefin Sans", sans-serif;
-                            color: #070606;
+                            font-family: 'Mulish',sans-serif;
+                            color: #707070;
                         }
                     }
                 }
@@ -78,14 +82,8 @@ export const Wrapper = styled.div`
                     margin-top: 0px;
                     
                     a{
-                        text-decoration: none;
-                        font-size: 12px;
-                        color: #fcfcfc;
-                        font-family: "Josefin Sans", sans-serif;
-                        background: linear-gradient( to right,#462271 , #051e4a);
-                        padding: 11px 16px 9px ;
-                        border-radius: 20px;
-                        box-sizing:border-box;
+                        font-weight:600;
+                        font-size:16px;
                     }
                 }
                 .Button-panels-2{
@@ -93,14 +91,8 @@ export const Wrapper = styled.div`
                     margin-top: 0px;
                     
                     a{
-                        text-decoration: none;
-                        font-size: 12px;
-                        color: #fcfcfc;
-                        font-family: "Josefin Sans", sans-serif;
-                        background: linear-gradient( to right,#462271 , #051e4a);
-                        padding: 11px 16px 9px ;
-                        border-radius: 20px;
-                        box-sizing:border-box;
+                        font-weight:600;
+                        font-size:16px;
                     }
                 }
                 .Button-panels-3{
@@ -108,14 +100,8 @@ export const Wrapper = styled.div`
                     margin-top: 0px;
                     
                     a{
-                        text-decoration: none;
-                        font-size: 12px;
-                        color: #fcfcfc;
-                        font-family: "Josefin Sans", sans-serif;
-                        background: linear-gradient( to right,#462271 , #051e4a);
-                        padding: 11px 16px 9px ;
-                        border-radius: 20px;
-                        box-sizing:border-box;
+                        font-weight:600;
+                        font-size:16px;
                     }
                 }
             }

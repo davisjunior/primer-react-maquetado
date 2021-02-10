@@ -22,7 +22,7 @@ export const Library = () => {
                                                                     
                         <h1>Tutorials</h1>
                         <div class="button-right-title">
-                            <a href="#">SEE ALL</a>
+                            <a href="#" className="cute-click">SEE ALL</a>
                         </div>
                     </div>
                     <div class="library-1">
@@ -65,7 +65,7 @@ export const Library = () => {
                         
                         <h1>Podcasts</h1>
                         <div class="button-right-title">
-                            <a href="#">SEE ALL</a>
+                            <a href="#" className="cute-click" >SEE ALL</a>
                         </div>
                     </div>
                     <div class="library-2">

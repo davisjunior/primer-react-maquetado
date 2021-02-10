@@ -36,7 +36,7 @@ export const Panels = () => {
                             </li>
                         </ul>
                         <div class="Button-panels-1">
-                            <a href="#">30 TUTORIALES</a>
+                            <a href="#" className="cute-click">30 TUTORIALES</a>
                         </div>
                     </div>
                     <div class="panels-content">
@@ -56,7 +56,7 @@ export const Panels = () => {
                             </li>
                         </ul>
                         <div class="Button-panels-2">
-                            <a href="#">20 TUTORIALES</a>
+                            <a href="#" className="cute-click">20 TUTORIALES</a>
                         </div>
                     </div>
                     <div class="panels-content">
@@ -76,7 +76,7 @@ export const Panels = () => {
                             </li>
                         </ul>
                         <div class="Button-panels-3">
-                            <a href="#">10 TUTORIALES</a>
+                            <a href="#" className="cute-click" >10 TUTORIALES</a>
                         </div>
                     </div>
                 </div>

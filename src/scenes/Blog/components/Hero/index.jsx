@@ -5,7 +5,7 @@ import Rg from './img/Registration.jpg'
 import Media from './img/media.jpg'
 import Media1 from './img/media1.jpg'
 import Media2 from './img/media2.jpg'
-import Fondo from './img/fondo.jpg'
+import Fondo from './img/fondomb.png'
 
 
 

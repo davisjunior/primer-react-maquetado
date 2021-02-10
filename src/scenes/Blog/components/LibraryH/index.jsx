@@ -23,7 +23,7 @@ export const LibraryH = () => {
                     <div class="tall-title">                                            
                         <h1>Articles                    </h1>
                         <div class="button-right-title">
-                            <a href="#">SEE ALL</a>
+                            <a href="#" className="cute-click">SEE ALL</a>
                         </div>
                     </div>    
                 </div>

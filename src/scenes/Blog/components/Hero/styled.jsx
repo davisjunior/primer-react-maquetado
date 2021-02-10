@@ -2,6 +2,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+margin-bottom:180px;
     .fondo-mobile{
         display: none;
     }
@@ -15,13 +16,13 @@ export const Wrapper = styled.div`
             
             h2{
                 font-size: 60px;
+                font-weight: 600;
                 color: white;
-                font-weight: 400;
-                text-shadow: 0px 0px 2px rgb(0, 0, 0);
                 text-align: center;
                 margin-bottom: 0px;
                 margin-left:0px;
                 margin-right:0px;
+                font-family: 'Mulish',sans-serif;
             }
         }
         .text-2{
@@ -32,6 +33,7 @@ export const Wrapper = styled.div`
                 color: white;
                 font-weight: 100;
                 text-align: center;
+                font-family: 'Mulish',sans-serif;
             }
         }
     }
@@ -43,11 +45,12 @@ export const Wrapper = styled.div`
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
-        margin-top: 75px;
+        margin-top: 25px;
         
 
         .container-1-info{
-            width: 56.5%;
+            //width: 56.5%;
+            width:70%;
             height: auto;
             border-radius: 30px;
             background: white;
@@ -58,9 +61,9 @@ export const Wrapper = styled.div`
             box-shadow: 0px 21px 76px -18px #767676;
 
             .img-info{
-                
+                border-radius: 20px 20px 0px 20px;
                 width: 100%;
-                height: 271px;
+                height: 360px;
                 overflow: hidden;
                 img{
                     width: auto;
@@ -74,8 +77,8 @@ export const Wrapper = styled.div`
                 margin-left: 3%;
                 h4{
                     font-size: 14px;
-                    color: #4c43f5;
-                    font-family: "Josefin Sans", sans-serif;
+                    color: #1a535c;
+                    font-family: 'Asap',sans-serif;
                     font-weight: 600;
                     margin:0px 0px 10px 0px;
 
@@ -85,19 +88,23 @@ export const Wrapper = styled.div`
                     a{
                         text-decoration: none;
                         font-size: 30px;
-                        color: #070606;
+                        color: #707070;
                         line-height: 1.1;
+                        font-family: 'Mulish',sans-serif;
+                        font-weight:600;
                     }
                 }
                 span{
                     font-size:17px;
-                    color:#070606;
+                    color:#707070;
                     font-weight: 100;
-                    line-height: 1.12;
+                    line-height: 1.2;
+                    font-family: 'Mulish',sans-serif;
                 }
             }
         }
         .container-2-info{
+            display:none;
             width: 29.1%;
             height:auto;
             background: white;
@@ -120,15 +127,15 @@ export const Wrapper = styled.div`
                         img{
                             width: 100px;
                             height: 100%;
-                            border-radius: 15px;
+                            border-radius: 20px 20px 0px 20px;
                         }
                     }
                 }
                 .orden{
                     h5{
                         font-size: 11px;
-                        font-family: "Josefin Sans", sans-serif;
-                        color: #4c43f5;
+                        font-family: 'Asap',sans-serif;
+                        color: #1a535c;
                         font-weight: 600;
                         margin:0px;
                     }
@@ -136,9 +143,9 @@ export const Wrapper = styled.div`
                         margin:5px 0px 0px 0px;
                         a{
                             text-decoration: none;
-                            color: #070606;
+                            color: #707070;
                             font-size: 16px;
-                            font-family: "Josefin Sans", sans-serif;
+                            font-family: 'Mulish',sans-serif;
                             line-height: 1.2;
                             text-shadow: 0px 0px 0px white;
                         }
@@ -226,6 +233,7 @@ export const Wrapper = styled.div`
         }
     }
     @media (max-width:767px){
+        margin-bottom: 450px;
         .fondo-mobile{
             display: flex;
             margin-top: 0px;
@@ -243,6 +251,7 @@ export const Wrapper = styled.div`
                 padding-bottom: 5px;
                 padding-right: 10px;
                 padding-left: 10px;
+                font-family: 'Mulish',sans-serif;
                 a{
                     text-decoration: none;
                     color: #fcfcfc;
@@ -262,7 +271,7 @@ export const Wrapper = styled.div`
                 top: 140px;
                 left: 20px;
                 font-size: 34px;
-                font-family: "Josefin Sans", sans-serif;
+                font-family: 'Mulish',sans-serif;
                 font-weight: 400;
             }
             
@@ -273,7 +282,7 @@ export const Wrapper = styled.div`
                 left: 20px;
                 font-size: 24px;
                 font-weight: 300;
-                font-family: "Josefin Sans", sans-serif;
+                font-family: 'Mulish',sans-serif;
                 line-height: 1.2;
             }       
         }
@@ -339,6 +348,13 @@ export const Wrapper = styled.div`
                         }
                     }
                 }
+            }
+        }
+    }
+    @media (max-width:320px){
+        .fondo-mobile{
+            h2{
+                top:100px;
             }
         }
     }

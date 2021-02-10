@@ -2,22 +2,31 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
+@media (min-width: 1500px){
+    margin-top: 400px;
+}
+@media (min-width: 1900px){
+    margin-top: 600px;
+}
     .container-library-horizontal{
         width: 100%;
-        height: auto;
+        height: 800px;
         display: block;
         padding-right: 10%;
         padding-left: 10%;
         box-sizing:border-box;
+        
         .title-and-button{
             width: auto;
             .small-tirle{
                 width: auto;
-                margin-bottom: 25px;
+                margin-bottom: 20px;
                 h5{
-                    font-size: 16px;
-                    font-family: "Josefin Sans", sans-serif;
-                    color: #4c43f5;
+                    font-size: 19px;
+                    color: #1a535c;
+                    font-family: 'Asap',sans-serif;
+                    letter-spacing: 3px;
+                    margin-bottom:0px;
                 }
             }
             .tall-title{
@@ -27,20 +36,16 @@ export const Wrapper = styled.div`
                 
                 h1{
                     font-size: 52px;
-                    color: #070606;
+                    color: #707070;
+                    font-family: 'Mulish',sans-serif;
+                    margin:0px;
                 }
                 .button-right-title{
                     margin-left: 20px;
                     margin-top: 14px;
                     a{
-                        font-size: 12px;
-                        text-decoration: none;
-                        color: #fcfcfc;
-                        font-family: "Josefin Sans", sans-serif;
-                        background: linear-gradient(to right,#4c43f5 ,#3ddc97);
-                        padding: 12px 15px 9px 15px;
-                        border-radius: 15px;
-                        box-sizing:border-box;
+                        font-weight:600;
+                        font-size: 15px;
                     }
                 }
             }
@@ -68,8 +73,8 @@ export const Wrapper = styled.div`
                             img{
                                 width: 100%;
                                 height: auto;
-                                border-radius: 10px;
-                                margin-bottom: 10px;
+                                border-radius: 20px 20px 0px 20px;
+                                margin-bottom: 5px;
                             }
                         }
                     }
@@ -77,16 +82,16 @@ export const Wrapper = styled.div`
                         margin-bottom: 15px;
                         a{
                             text-decoration: none;
-                            font-family: "Josefin Sans", sans-serif;
-                            color: #070606;
+                            color: #707070;
+                            font-family: 'Mulish',sans-serif;
                             font-size: 21px;
                             
                         }
                     }
                     span{
-                        font-size: 17px;
-                        font-family: "Josefin Sans", sans-serif;
-                        color: #070606;
+                        font-size: 16px;
+                        color: #707070;
+                        font-family: 'Mulish',sans-serif;
                         font-weight: 300;
                         
 
@@ -153,6 +158,16 @@ export const Wrapper = styled.div`
                     display: none;
                 }
             }
+        }
+    }
+    @media (max-width:540px){
+        .container-library-horizontal{
+            height:500px;
+        }
+    }
+    @media (max-width:300px){
+        .container-library-horizontal{
+            height:440px;
         }
     }
 `
