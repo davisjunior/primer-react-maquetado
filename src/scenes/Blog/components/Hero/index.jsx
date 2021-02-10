@@ -16,7 +16,7 @@ export const Hero = () => {
                 <h1><a href="#">Ira hurtado</a></h1>
                 <img src={Fondo} alt="" />
                 <h2>El centro de diseño <br/> de movimiento</h2>
-                <span>Bienvenido al lugar numero 1 para  tutoriales en video de <br/> diseño de  movimiento,<br/> entrevistas de  podcast y <br/> articulos detallados.</span>
+                <span>Bienvenido al lugar numero 1 para  Curriculums en video de <br/> diseño de  movimiento,<br/> entrevistas de  podcast y <br/> articulos detallados.</span>
             </div>
 
             <div class="container-down-header">
